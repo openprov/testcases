@@ -1,0 +1,10 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex2: <http://example.org/2/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex1: <http://example.org/1/> .
+
+
+<http://example.org/0/e001> a prov:Entity .
+
+ex2:e001 a prov:Entity .

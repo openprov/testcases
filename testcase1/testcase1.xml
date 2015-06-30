@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex2="http://example.org/2/" xmlns:ex1="http://example.org/1/">
+    <prov:bundleContent prov:id="ex2:e001">
+        <prov:entity prov:id="ex2:e001"/>
+    </prov:bundleContent>
+    <prov:entity xmlns="http://example.org/0/" prov:id="e001"/>
+</prov:document>
