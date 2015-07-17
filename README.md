@@ -30,6 +30,23 @@ are cases that can't be validly encoded in a particular representation
 A library for W3C Provenance Data Model supporting PROV-JSON and
 PROV-XML import/export
 
+## Current test cases
+
+testcase1
+
+* Derived from [primer.pn](https://raw.github.com/lucmoreau/ProvToolbox/master/prov-n/src/test/resources/prov/primer.pn) one of the example documents in the URL drop-down on both [ProvTranslator](https://provenance.ecs.soton.ac.uk/validator/view/translator.html) and [ProvValidator](https://provenance.ecs.soton.ac.uk/validator/view/validator.html). 
+* Each document was manually created from primer.pn using these online forms.
+
+testcase2 
+
+* testcase2.json was created by running [ProvPy](https://github.com/trungdong/prov)'s [PROV document with a bundle](http://prov.readthedocs.org/en/latest/usage.html#prov-document-with-a-bundle) example.
+*  Other documents were creatyed using [ProvToolbox](https://github.com/lucmoreau/ProvToolbox/) prov-convert script on testcase2.json.
+
+testcase3
+
+* Copy of testcase 2.
+
 ## License
 
 These test cases are released under the MIT license.
+
