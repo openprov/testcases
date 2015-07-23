@@ -47,8 +47,8 @@ testcase3
 
 testcase4
 
-* testcase4.json was created by running [ProvPy](https://github.com/trungdong/prov)'s [PROV document with a bundle](http://prov.readthedocs.org/en/latest/usage.html#prov-document-with-a-bundle) example.
-* Other documents were creatyed using [ProvToolbox](https://github.com/lucmoreau/ProvToolbox/) prov-convert script on testcase4.json.
+* prov.json was created by running [ProvPy](https://github.com/trungdong/prov)'s [PROV document with a bundle](http://prov.readthedocs.org/en/latest/usage.html#prov-document-with-a-bundle) example.
+* Other documents were creatyed using [ProvToolbox](https://github.com/lucmoreau/ProvToolbox/) prov-convert script on prov.json.
 
 ## License
 
