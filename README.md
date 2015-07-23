@@ -39,20 +39,16 @@ testcase1
 
 testcase2
 
-* testcase2.json was created by running [ProvPy](https://github.com/trungdong/prov)'s [PROV document with a bundle](http://prov.readthedocs.org/en/latest/usage.html#prov-document-with-a-bundle) example.
-* Other documents were creatyed using [ProvToolbox](https://github.com/lucmoreau/ProvToolbox/) prov-convert script on testcase2.json.
+* Created from [sculpture.prov-asn](https://raw.github.com/lucmoreau/ProvToolbox/master/prov-n/src/test/resources/prov/sculpture.prov-asn) available as "Sculpture" example in ProvTranslator and ProvValidator.
 
 testcase3
 
-Copy of testcase2.
+* Created from [pc1.xml](https://raw.github.com/lucmoreau/ProvToolbox/master/prov-xml/src/test/resources/pc1.xml) available as "PC1" in ProvTranslator and ProvValidator
 
 testcase4
 
-* Created from [sculpture.prov-asn](https://raw.github.com/lucmoreau/ProvToolbox/master/prov-n/src/test/resources/prov/sculpture.prov-asn) available as "Sculpture" example in ProvTranslator and ProvValidator.
-
-testcase5
-
-* Created from [pc1.xml](https://raw.github.com/lucmoreau/ProvToolbox/master/prov-xml/src/test/resources/pc1.xml) available as "PC1" in ProvTranslator and ProvValidator
+* testcase4.json was created by running [ProvPy](https://github.com/trungdong/prov)'s [PROV document with a bundle](http://prov.readthedocs.org/en/latest/usage.html#prov-document-with-a-bundle) example.
+* Other documents were creatyed using [ProvToolbox](https://github.com/lucmoreau/ProvToolbox/) prov-convert script on testcase4.json.
 
 ## License
 
