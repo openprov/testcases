@@ -1,0 +1,1179 @@
+{
+  "wasAssociatedWith": {
+    "pc1:waw1": {
+      "prov:activity": "pc1:00000p1",
+      "prov:agent": "pc1:ag1"
+    }
+  },
+  "wasGeneratedBy": {
+    "_:wGB6707": {
+      "prov:activity": "pc1:a14",
+      "prov:time": "2012-10-26T09:58:08.407+01:00",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e29"
+    },
+    "_:wGB6692": {
+      "prov:activity": "pc1:a4",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e14"
+    },
+    "_:wGB6706": {
+      "prov:activity": "pc1:a13",
+      "prov:time": "2012-10-26T09:58:08.407+01:00",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e28"
+    },
+    "_:wGB6693": {
+      "prov:activity": "pc1:a5",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e15"
+    },
+    "_:wGB6705": {
+      "prov:activity": "pc1:a12",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e27"
+    },
+    "_:wGB6694": {
+      "prov:activity": "pc1:a5",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e16"
+    },
+    "_:wGB6708": {
+      "prov:activity": "pc1:a15",
+      "prov:time": "2012-10-26T09:58:08.407+01:00",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e30"
+    },
+    "_:wGB6704": {
+      "prov:activity": "pc1:a11",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e26"
+    },
+    "_:wGB6695": {
+      "prov:activity": "pc1:a6",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e17"
+    },
+    "_:wGB6703": {
+      "prov:activity": "pc1:a10",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e25"
+    },
+    "_:wGB6696": {
+      "prov:activity": "pc1:a6",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e18"
+    },
+    "_:wGB6702": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e24"
+    },
+    "_:wGB6697": {
+      "prov:activity": "pc1:a7",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e19"
+    },
+    "_:wGB6701": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e23"
+    },
+    "_:wGB6698": {
+      "prov:activity": "pc1:a7",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e20"
+    },
+    "_:wGB6699": {
+      "prov:activity": "pc1:a8",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e21"
+    },
+    "_:wGB6700": {
+      "prov:activity": "pc1:a8",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e22"
+    },
+    "_:wGB6691": {
+      "prov:activity": "pc1:a3",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e13"
+    },
+    "_:wGB6690": {
+      "prov:activity": "pc1:a2",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e12"
+    },
+    "pc1:wgb1": {
+      "prov:activity": "pc1:00000p1",
+      "prov:role": {
+        "$": "out",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e11"
+    }
+  },
+  "entity": {
+    "pc1:e29": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/atlas-y.gif",
+        "type": "xsd:string"
+      },
+      "prov:label": "Atlas Y Graphic"
+    },
+    "pc1:e27p": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#String",
+        "type": "xsd:string"
+      },
+      "pc1:value": {
+        "$": "-z .5",
+        "type": "xsd:string"
+      },
+      "prov:label": "slicer param 3"
+    },
+    "pc1:e20": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/resliced3.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Resliced H3"
+    },
+    "pc1:e23": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/atlas.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Atlas Image"
+    },
+    "pc1:e24": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/atlas.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Atlas Header"
+    },
+    "pc1:e25p": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#String",
+        "type": "xsd:string"
+      },
+      "pc1:value": {
+        "$": "-x .5",
+        "type": "xsd:string"
+      },
+      "prov:label": "slicer param 1"
+    },
+    "pc1:e21": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/resliced4.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Resliced I4"
+    },
+    "pc1:e22": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/resliced4.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Resliced H4"
+    },
+    "pc1:e27": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/atlas-z.pgm",
+        "type": "xsd:string"
+      },
+      "prov:label": "Atlas Z Slice"
+    },
+    "pc1:e28": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/atlas-x.gif",
+        "type": "xsd:string"
+      },
+      "prov:label": "Atlas X Graphic"
+    },
+    "pc1:e25": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/atlas-x.pgm",
+        "type": "xsd:string"
+      },
+      "prov:label": "Atlas X Slice"
+    },
+    "pc1:e26": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/atlas-y.pgm",
+        "type": "xsd:string"
+      },
+      "prov:label": "Atlas Y Slice"
+    },
+    "pc1:e8": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/anatomy3.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Anatomy H3"
+    },
+    "pc1:e7": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/anatomy3.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Anatomy I3"
+    },
+    "pc1:e6": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/anatomy2.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Anatomy H2"
+    },
+    "pc1:e5": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/anatomy2.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Anatomy I2"
+    },
+    "pc1:e4": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/anatomy1.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Anatomy H1"
+    },
+    "pc1:e18": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/resliced2.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Resliced H2"
+    },
+    "pc1:e3": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/anatomy1.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Anatomy I1"
+    },
+    "pc1:e19": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/resliced3.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Resliced I3"
+    },
+    "pc1:e2": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/reference.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Reference Header"
+    },
+    "pc1:e1": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/reference.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Reference Image"
+    },
+    "pc1:e15": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/resliced1.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Resliced I1"
+    },
+    "pc1:e14": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/warp4.warp",
+        "type": "xsd:string"
+      },
+      "prov:label": "Warp Params4"
+    },
+    "pc1:e26p": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#String",
+        "type": "xsd:string"
+      },
+      "pc1:value": {
+        "$": "-y .5",
+        "type": "xsd:string"
+      },
+      "prov:label": "slicer param 2"
+    },
+    "pc1:e17": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/resliced2.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Resliced I2"
+    },
+    "pc1:e16": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/resliced1.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Resliced H1"
+    },
+    "pc1:e11": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/warp1.warp",
+        "type": "xsd:string"
+      },
+      "prov:label": "Warp Params1"
+    },
+    "pc1:e10": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/anatomy4.hdr",
+        "type": "xsd:string"
+      },
+      "prov:label": "Anatomy H4"
+    },
+    "pc1:e30": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/atlas-z.gif",
+        "type": "xsd:string"
+      },
+      "prov:label": "Atlas Z Graphic"
+    },
+    "pc1:e9": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/anatomy4.img",
+        "type": "xsd:string"
+      },
+      "prov:label": "Anatomy I4"
+    },
+    "pc1:e13": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/warp3.warp",
+        "type": "xsd:string"
+      },
+      "prov:label": "Warp Params3"
+    },
+    "pc1:e12": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#File",
+        "type": "xsd:anyURI"
+      },
+      "pc1:url": {
+        "$": "http://www.ipaw.info/challenge/warp2.warp",
+        "type": "xsd:string"
+      },
+      "prov:label": "Warp Params2"
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema",
+    "prim": "http://openprovenance.org/primitives#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "pc1": "http://www.ipaw.info/pc1/"
+  },
+  "wasDerivedFrom": {
+    "_:wDF5744": {
+      "prov:generatedEntity": "pc1:e14",
+      "prov:usedEntity": "pc1:e9"
+    },
+    "_:wDF5745": {
+      "prov:generatedEntity": "pc1:e14",
+      "prov:usedEntity": "pc1:e10"
+    },
+    "_:wDF5746": {
+      "prov:generatedEntity": "pc1:e15",
+      "prov:usedEntity": "pc1:e11"
+    },
+    "_:wDF5747": {
+      "prov:generatedEntity": "pc1:e16",
+      "prov:usedEntity": "pc1:e11"
+    },
+    "_:wDF5748": {
+      "prov:generatedEntity": "pc1:e17",
+      "prov:usedEntity": "pc1:e12"
+    },
+    "_:wDF5749": {
+      "prov:generatedEntity": "pc1:e18",
+      "prov:usedEntity": "pc1:e12"
+    },
+    "_:wDF5767": {
+      "prov:generatedEntity": "pc1:e24",
+      "prov:usedEntity": "pc1:e20"
+    },
+    "_:wDF5766": {
+      "prov:generatedEntity": "pc1:e24",
+      "prov:usedEntity": "pc1:e19"
+    },
+    "_:wDF5769": {
+      "prov:generatedEntity": "pc1:e24",
+      "prov:usedEntity": "pc1:e22"
+    },
+    "_:wDF5768": {
+      "prov:generatedEntity": "pc1:e24",
+      "prov:usedEntity": "pc1:e21"
+    },
+    "_:wDF5773": {
+      "prov:generatedEntity": "pc1:e26",
+      "prov:usedEntity": "pc1:e24"
+    },
+    "_:wDF5774": {
+      "prov:generatedEntity": "pc1:e27",
+      "prov:usedEntity": "pc1:e23"
+    },
+    "_:wDF5775": {
+      "prov:generatedEntity": "pc1:e27",
+      "prov:usedEntity": "pc1:e24"
+    },
+    "_:wDF5776": {
+      "prov:generatedEntity": "pc1:e28",
+      "prov:usedEntity": "pc1:e25"
+    },
+    "_:wDF5770": {
+      "prov:generatedEntity": "pc1:e25",
+      "prov:usedEntity": "pc1:e23"
+    },
+    "_:wDF5771": {
+      "prov:generatedEntity": "pc1:e25",
+      "prov:usedEntity": "pc1:e24"
+    },
+    "_:wDF5772": {
+      "prov:generatedEntity": "pc1:e26",
+      "prov:usedEntity": "pc1:e23"
+    },
+    "_:wDF5730": {
+      "prov:activity": "pc1:00000p1",
+      "prov:generatedEntity": "pc1:e11",
+      "prov:usage": "pc1:u3",
+      "prov:generation": "pc1:wgb1",
+      "prov:usedEntity": "pc1:e1"
+    },
+    "_:wDF5732": {
+      "prov:generatedEntity": "pc1:e11",
+      "prov:usedEntity": "pc1:e3"
+    },
+    "_:wDF5750": {
+      "prov:generatedEntity": "pc1:e19",
+      "prov:usedEntity": "pc1:e13"
+    },
+    "_:wDF5731": {
+      "prov:generatedEntity": "pc1:e11",
+      "prov:usedEntity": "pc1:e2"
+    },
+    "_:wDF5752": {
+      "prov:generatedEntity": "pc1:e21",
+      "prov:usedEntity": "pc1:e14"
+    },
+    "_:wDF5751": {
+      "prov:generatedEntity": "pc1:e20",
+      "prov:usedEntity": "pc1:e13"
+    },
+    "_:wDF5754": {
+      "prov:generatedEntity": "pc1:e23",
+      "prov:usedEntity": "pc1:e15"
+    },
+    "_:wDF5753": {
+      "prov:generatedEntity": "pc1:e22",
+      "prov:usedEntity": "pc1:e14"
+    },
+    "_:wDF5757": {
+      "prov:generatedEntity": "pc1:e23",
+      "prov:usedEntity": "pc1:e18"
+    },
+    "_:wDF5739": {
+      "prov:generatedEntity": "pc1:e13",
+      "prov:usedEntity": "pc1:e2"
+    },
+    "_:wDF5758": {
+      "prov:generatedEntity": "pc1:e23",
+      "prov:usedEntity": "pc1:e19"
+    },
+    "_:wDF5755": {
+      "prov:generatedEntity": "pc1:e23",
+      "prov:usedEntity": "pc1:e16"
+    },
+    "_:wDF5737": {
+      "prov:generatedEntity": "pc1:e12",
+      "prov:usedEntity": "pc1:e6"
+    },
+    "_:wDF5756": {
+      "prov:generatedEntity": "pc1:e23",
+      "prov:usedEntity": "pc1:e17"
+    },
+    "_:wDF5738": {
+      "prov:generatedEntity": "pc1:e13",
+      "prov:usedEntity": "pc1:e1"
+    },
+    "_:wDF5735": {
+      "prov:generatedEntity": "pc1:e12",
+      "prov:usedEntity": "pc1:e2"
+    },
+    "_:wDF5736": {
+      "prov:generatedEntity": "pc1:e12",
+      "prov:usedEntity": "pc1:e5"
+    },
+    "_:wDF5759": {
+      "prov:generatedEntity": "pc1:e23",
+      "prov:usedEntity": "pc1:e20"
+    },
+    "_:wDF5733": {
+      "prov:generatedEntity": "pc1:e11",
+      "prov:usedEntity": "pc1:e4"
+    },
+    "_:wDF5734": {
+      "prov:generatedEntity": "pc1:e12",
+      "prov:usedEntity": "pc1:e1"
+    },
+    "_:wDF5778": {
+      "prov:generatedEntity": "pc1:e30",
+      "prov:usedEntity": "pc1:e27"
+    },
+    "_:wDF5777": {
+      "prov:generatedEntity": "pc1:e29",
+      "prov:usedEntity": "pc1:e26"
+    },
+    "_:wDF5761": {
+      "prov:generatedEntity": "pc1:e23",
+      "prov:usedEntity": "pc1:e22"
+    },
+    "_:wDF5743": {
+      "prov:generatedEntity": "pc1:e14",
+      "prov:usedEntity": "pc1:e2"
+    },
+    "_:wDF5760": {
+      "prov:generatedEntity": "pc1:e23",
+      "prov:usedEntity": "pc1:e21"
+    },
+    "_:wDF5742": {
+      "prov:generatedEntity": "pc1:e14",
+      "prov:usedEntity": "pc1:e1"
+    },
+    "_:wDF5741": {
+      "prov:generatedEntity": "pc1:e13",
+      "prov:usedEntity": "pc1:e8"
+    },
+    "_:wDF5740": {
+      "prov:generatedEntity": "pc1:e13",
+      "prov:usedEntity": "pc1:e7"
+    },
+    "_:wDF5765": {
+      "prov:generatedEntity": "pc1:e24",
+      "prov:usedEntity": "pc1:e18"
+    },
+    "_:wDF5764": {
+      "prov:generatedEntity": "pc1:e24",
+      "prov:usedEntity": "pc1:e17"
+    },
+    "_:wDF5763": {
+      "prov:generatedEntity": "pc1:e24",
+      "prov:usedEntity": "pc1:e16"
+    },
+    "_:wDF5762": {
+      "prov:generatedEntity": "pc1:e24",
+      "prov:usedEntity": "pc1:e15"
+    }
+  },
+  "used": {
+    "_:u6744": {
+      "prov:activity": "pc1:a5",
+      "prov:role": {
+        "$": "in",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e11"
+    },
+    "_:u6743": {
+      "prov:activity": "pc1:a4",
+      "prov:role": {
+        "$": "hdrRef",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e2"
+    },
+    "_:u6742": {
+      "prov:activity": "pc1:a4",
+      "prov:role": {
+        "$": "imgRef",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e1"
+    },
+    "_:u6767": {
+      "prov:activity": "pc1:a15",
+      "prov:role": {
+        "$": "in",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e27"
+    },
+    "_:u6741": {
+      "prov:activity": "pc1:a4",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e10"
+    },
+    "_:u6766": {
+      "prov:activity": "pc1:a14",
+      "prov:role": {
+        "$": "in",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e26"
+    },
+    "_:u6748": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "i1",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e15"
+    },
+    "_:u6765": {
+      "prov:activity": "pc1:a13",
+      "prov:role": {
+        "$": "in",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e25"
+    },
+    "_:u6747": {
+      "prov:activity": "pc1:a8",
+      "prov:role": {
+        "$": "in",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e14"
+    },
+    "_:u6764": {
+      "prov:activity": "pc1:a12",
+      "prov:role": {
+        "$": "param",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e27p"
+    },
+    "_:u6746": {
+      "prov:activity": "pc1:a7",
+      "prov:role": {
+        "$": "in",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e13"
+    },
+    "_:u6763": {
+      "prov:activity": "pc1:a11",
+      "prov:role": {
+        "$": "param",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e26p"
+    },
+    "_:u6745": {
+      "prov:activity": "pc1:a6",
+      "prov:role": {
+        "$": "in",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e12"
+    },
+    "_:u6762": {
+      "prov:activity": "pc1:a10",
+      "prov:role": {
+        "$": "param",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e25p"
+    },
+    "_:u6761": {
+      "prov:activity": "pc1:a12",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e24"
+    },
+    "_:u6760": {
+      "prov:activity": "pc1:a12",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e23"
+    },
+    "_:u6740": {
+      "prov:activity": "pc1:a4",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e9"
+    },
+    "_:u6738": {
+      "prov:activity": "pc1:a3",
+      "prov:role": {
+        "$": "imgRef",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e1"
+    },
+    "_:u6739": {
+      "prov:activity": "pc1:a3",
+      "prov:role": {
+        "$": "hdrRef",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e2"
+    },
+    "_:u6753": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "h3",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e20"
+    },
+    "_:u6733": {
+      "prov:activity": "pc1:a2",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e6"
+    },
+    "_:u6752": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "i3",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e19"
+    },
+    "_:u6732": {
+      "prov:activity": "pc1:a2",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e5"
+    },
+    "_:u6755": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "h4",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e22"
+    },
+    "_:u6731": {
+      "prov:activity": "pc1:00000p1",
+      "prov:role": {
+        "$": "hdrRef",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e2"
+    },
+    "_:u6754": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "i4",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e21"
+    },
+    "_:u6730": {
+      "prov:activity": "pc1:00000p1",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e4"
+    },
+    "_:u6757": {
+      "prov:activity": "pc1:a10",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e24"
+    },
+    "_:u6737": {
+      "prov:activity": "pc1:a3",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e8"
+    },
+    "_:u6756": {
+      "prov:activity": "pc1:a10",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e23"
+    },
+    "_:u6736": {
+      "prov:activity": "pc1:a3",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e7"
+    },
+    "_:u6759": {
+      "prov:activity": "pc1:a11",
+      "prov:role": {
+        "$": "hdr",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e24"
+    },
+    "_:u6735": {
+      "prov:activity": "pc1:a2",
+      "prov:role": {
+        "$": "hdrRef",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e2"
+    },
+    "_:u6758": {
+      "prov:activity": "pc1:a11",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e23"
+    },
+    "_:u6734": {
+      "prov:activity": "pc1:a2",
+      "prov:role": {
+        "$": "imgRef",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e1"
+    },
+    "_:u6751": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "h2",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e18"
+    },
+    "_:u6750": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "i2",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e17"
+    },
+    "_:u6729": {
+      "prov:activity": "pc1:00000p1",
+      "prov:role": {
+        "$": "img",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e3"
+    },
+    "_:u6749": {
+      "prov:activity": "pc1:a9",
+      "prov:role": {
+        "$": "h1",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e16"
+    },
+    "pc1:u3": {
+      "prov:activity": "pc1:00000p1",
+      "prov:role": {
+        "$": "imgRef",
+        "type": "xsd:string"
+      },
+      "prov:entity": "pc1:e1"
+    }
+  },
+  "agent": {
+    "pc1:ag1": {
+      "prov:label": "John Doe"
+    }
+  },
+  "activity": {
+    "pc1:a3": {
+      "prov:type": {
+        "$": "prim:align_warp",
+        "type": "xsd:QName"
+      },
+      "prov:label": "align_warp 3"
+    },
+    "pc1:a4": {
+      "prov:type": {
+        "$": "prim:align_warp",
+        "type": "xsd:QName"
+      },
+      "prov:label": "align_warp 4"
+    },
+    "pc1:a2": {
+      "prov:type": {
+        "$": "prim:align_warp",
+        "type": "xsd:QName"
+      },
+      "prov:label": "align_warp 2"
+    },
+    "pc1:a14": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#convert",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Convert 2"
+    },
+    "pc1:00000p1": {
+      "prov:type": {
+        "$": "prim:align_warp",
+        "type": "xsd:QName"
+      },
+      "prov:label": "align_warp 1"
+    },
+    "pc1:a15": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#convert",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Convert 3"
+    },
+    "pc1:a12": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#slicer",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Slicer 3"
+    },
+    "pc1:a13": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#convert",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Convert 1"
+    },
+    "pc1:a10": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#slicer",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Slicer 1"
+    },
+    "pc1:a11": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#slicer",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Slicer 2"
+    },
+    "pc1:a9": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#softmean",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Softmean"
+    },
+    "pc1:a8": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#reslice",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Reslice 4"
+    },
+    "pc1:a7": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#reslice",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Reslice 3"
+    },
+    "pc1:a6": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#reslice",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Reslice 2"
+    },
+    "pc1:a5": {
+      "prov:type": {
+        "$": "http://openprovenance.org/primitives#reslice",
+        "type": "xsd:anyURI"
+      },
+      "prov:label": "Reslice 1"
+    }
+  }
+}

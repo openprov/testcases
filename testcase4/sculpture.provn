@@ -1,0 +1,25 @@
+document
+prefix xsd <http://www.w3.org/2001/XMLSchema>
+prefix ex <http://example.org/>
+entity(ex:s,[prov:type = "sculpture" %% xsd:string])
+entity(ex:h,[prov:type = "hand" %% xsd:string])
+entity(ex:l,[prov:type = "leg" %% xsd:string])
+wasDerivedFrom(ex:s, ex:h,[prov:type = "contained" %% xsd:string])
+wasDerivedFrom(ex:s, ex:l,[prov:type = "contained" %% xsd:string])
+entity(ex:s_2,[prov:type = "sculpture" %% xsd:string])
+entity(ex:h_2,[prov:type = "hand" %% xsd:string])
+activity(ex:a1,-,-,[prov:type = "sculptHand" %% xsd:string])
+wasDerivedFrom(ex:s_2, ex:h_2,[prov:type = "contained" %% xsd:string])
+wasDerivedFrom(ex:s_2, ex:l,[prov:type = "contained" %% xsd:string])
+wasDerivedFrom(ex:h_2, ex:h,[prov:type = "refinementOf" %% xsd:string])
+wasDerivedFrom(ex:s_2, ex:s,[prov:type = "refinementOf" %% xsd:string])
+wasGeneratedBy(ex:h_2,ex:a1,-)
+entity(ex:s_3,[prov:type = "sculpture" %% xsd:string])
+entity(ex:l_3,[prov:type = "leg" %% xsd:string])
+activity(ex:a2,-,-,[prov:type = "sculptLeg" %% xsd:string])
+wasDerivedFrom(ex:s_3, ex:h_2,[prov:type = "contained" %% xsd:string])
+wasDerivedFrom(ex:s_3, ex:l_3,[prov:type = "contained" %% xsd:string])
+wasDerivedFrom(ex:l_3, ex:l,[prov:type = "refinementOf" %% xsd:string])
+wasDerivedFrom(ex:s_3, ex:s_2,[prov:type = "refinementOf" %% xsd:string])
+wasGeneratedBy(ex:l_3,ex:a2,-)
+endDocument

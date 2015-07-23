@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:entity prov:id="ex:s">
+        <prov:type xsi:type="xsd:string">sculpture</prov:type>
+    </prov:entity>
+    <prov:entity prov:id="ex:h">
+        <prov:type xsi:type="xsd:string">hand</prov:type>
+    </prov:entity>
+    <prov:entity prov:id="ex:l">
+        <prov:type xsi:type="xsd:string">leg</prov:type>
+    </prov:entity>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:s"/>
+        <prov:usedEntity prov:ref="ex:h"/>
+        <prov:type xsi:type="xsd:string">contained</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:s"/>
+        <prov:usedEntity prov:ref="ex:l"/>
+        <prov:type xsi:type="xsd:string">contained</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:entity prov:id="ex:s_2">
+        <prov:type xsi:type="xsd:string">sculpture</prov:type>
+    </prov:entity>
+    <prov:entity prov:id="ex:h_2">
+        <prov:type xsi:type="xsd:string">hand</prov:type>
+    </prov:entity>
+    <prov:activity prov:id="ex:a1">
+        <prov:type xsi:type="xsd:string">sculptHand</prov:type>
+    </prov:activity>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:s_2"/>
+        <prov:usedEntity prov:ref="ex:h_2"/>
+        <prov:type xsi:type="xsd:string">contained</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:s_2"/>
+        <prov:usedEntity prov:ref="ex:l"/>
+        <prov:type xsi:type="xsd:string">contained</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:h_2"/>
+        <prov:usedEntity prov:ref="ex:h"/>
+        <prov:type xsi:type="xsd:string">refinementOf</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:s_2"/>
+        <prov:usedEntity prov:ref="ex:s"/>
+        <prov:type xsi:type="xsd:string">refinementOf</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:wasGeneratedBy>
+        <prov:entity prov:ref="ex:h_2"/>
+        <prov:activity prov:ref="ex:a1"/>
+    </prov:wasGeneratedBy>
+    <prov:entity prov:id="ex:s_3">
+        <prov:type xsi:type="xsd:string">sculpture</prov:type>
+    </prov:entity>
+    <prov:entity prov:id="ex:l_3">
+        <prov:type xsi:type="xsd:string">leg</prov:type>
+    </prov:entity>
+    <prov:activity prov:id="ex:a2">
+        <prov:type xsi:type="xsd:string">sculptLeg</prov:type>
+    </prov:activity>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:s_3"/>
+        <prov:usedEntity prov:ref="ex:h_2"/>
+        <prov:type xsi:type="xsd:string">contained</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:s_3"/>
+        <prov:usedEntity prov:ref="ex:l_3"/>
+        <prov:type xsi:type="xsd:string">contained</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:l_3"/>
+        <prov:usedEntity prov:ref="ex:l"/>
+        <prov:type xsi:type="xsd:string">refinementOf</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:wasDerivedFrom>
+        <prov:generatedEntity prov:ref="ex:s_3"/>
+        <prov:usedEntity prov:ref="ex:s_2"/>
+        <prov:type xsi:type="xsd:string">refinementOf</prov:type>
+    </prov:wasDerivedFrom>
+    <prov:wasGeneratedBy>
+        <prov:entity prov:ref="ex:l_3"/>
+        <prov:activity prov:ref="ex:a2"/>
+    </prov:wasGeneratedBy>
+</prov:document>

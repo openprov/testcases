@@ -1,0 +1,157 @@
+{
+  "wasGeneratedBy": {
+    "_:wGB6545": {
+      "prov:activity": "ex:a2",
+      "prov:entity": "ex:l_3"
+    },
+    "_:wGB6544": {
+      "prov:activity": "ex:a1",
+      "prov:entity": "ex:h_2"
+    }
+  },
+  "entity": {
+    "ex:h": {
+      "prov:type": {
+        "$": "hand",
+        "type": "xsd:string"
+      }
+    },
+    "ex:s_3": {
+      "prov:type": {
+        "$": "sculpture",
+        "type": "xsd:string"
+      }
+    },
+    "ex:l_3": {
+      "prov:type": {
+        "$": "leg",
+        "type": "xsd:string"
+      }
+    },
+    "ex:l": {
+      "prov:type": {
+        "$": "leg",
+        "type": "xsd:string"
+      }
+    },
+    "ex:s_2": {
+      "prov:type": {
+        "$": "sculpture",
+        "type": "xsd:string"
+      }
+    },
+    "ex:h_2": {
+      "prov:type": {
+        "$": "hand",
+        "type": "xsd:string"
+      }
+    },
+    "ex:s": {
+      "prov:type": {
+        "$": "sculpture",
+        "type": "xsd:string"
+      }
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "wasDerivedFrom": {
+    "_:wDF5471": {
+      "prov:generatedEntity": "ex:s_2",
+      "prov:type": {
+        "$": "refinementOf",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:s"
+    },
+    "_:wDF5470": {
+      "prov:generatedEntity": "ex:h_2",
+      "prov:type": {
+        "$": "refinementOf",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:h"
+    },
+    "_:wDF5469": {
+      "prov:generatedEntity": "ex:s_2",
+      "prov:type": {
+        "$": "contained",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:l"
+    },
+    "_:wDF5475": {
+      "prov:generatedEntity": "ex:s_3",
+      "prov:type": {
+        "$": "refinementOf",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:s_2"
+    },
+    "_:wDF5466": {
+      "prov:generatedEntity": "ex:s",
+      "prov:type": {
+        "$": "contained",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:h"
+    },
+    "_:wDF5474": {
+      "prov:generatedEntity": "ex:l_3",
+      "prov:type": {
+        "$": "refinementOf",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:l"
+    },
+    "_:wDF5473": {
+      "prov:generatedEntity": "ex:s_3",
+      "prov:type": {
+        "$": "contained",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:l_3"
+    },
+    "_:wDF5468": {
+      "prov:generatedEntity": "ex:s_2",
+      "prov:type": {
+        "$": "contained",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:h_2"
+    },
+    "_:wDF5472": {
+      "prov:generatedEntity": "ex:s_3",
+      "prov:type": {
+        "$": "contained",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:h_2"
+    },
+    "_:wDF5467": {
+      "prov:generatedEntity": "ex:s",
+      "prov:type": {
+        "$": "contained",
+        "type": "xsd:string"
+      },
+      "prov:usedEntity": "ex:l"
+    }
+  },
+  "activity": {
+    "ex:a2": {
+      "prov:type": {
+        "$": "sculptLeg",
+        "type": "xsd:string"
+      }
+    },
+    "ex:a1": {
+      "prov:type": {
+        "$": "sculptHand",
+        "type": "xsd:string"
+      }
+    }
+  }
+}

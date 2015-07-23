@@ -1,0 +1,99 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+{
+	ex:s a prov:Entity , "sculpture"^^xsd:string .
+	
+	ex:h a prov:Entity , "hand"^^xsd:string .
+	
+	ex:l a prov:Entity , "leg"^^xsd:string .
+	
+	_:blank1671 a prov:Derivation ;
+		prov:entity ex:h .
+	
+	ex:s prov:qualifiedDerivation _:blank1671 .
+	
+	_:blank1671 a "contained"^^xsd:string .
+	
+	_:blank1672 a prov:Derivation ;
+		prov:entity ex:l .
+	
+	ex:s prov:qualifiedDerivation _:blank1672 .
+	
+	_:blank1672 a "contained"^^xsd:string .
+	
+	ex:s_2 a prov:Entity , "sculpture"^^xsd:string .
+	
+	ex:h_2 a prov:Entity , "hand"^^xsd:string .
+	
+	ex:a1 a prov:Activity , "sculptHand"^^xsd:string .
+	
+	_:blank1673 a prov:Derivation ;
+		prov:entity ex:h_2 .
+	
+	ex:s_2 prov:qualifiedDerivation _:blank1673 .
+	
+	_:blank1673 a "contained"^^xsd:string .
+	
+	_:blank1674 a prov:Derivation ;
+		prov:entity ex:l .
+	
+	ex:s_2 prov:qualifiedDerivation _:blank1674 .
+	
+	_:blank1674 a "contained"^^xsd:string .
+	
+	_:blank1675 a prov:Derivation ;
+		prov:entity ex:h .
+	
+	ex:h_2 prov:qualifiedDerivation _:blank1675 .
+	
+	_:blank1675 a "refinementOf"^^xsd:string .
+	
+	_:blank1676 a prov:Derivation ;
+		prov:entity ex:s .
+	
+	ex:s_2 prov:qualifiedDerivation _:blank1676 .
+	
+	_:blank1676 a "refinementOf"^^xsd:string .
+	
+	ex:h_2 prov:wasGeneratedBy ex:a1 .
+	
+	ex:s_3 a prov:Entity , "sculpture"^^xsd:string .
+	
+	ex:l_3 a prov:Entity , "leg"^^xsd:string .
+	
+	ex:a2 a prov:Activity , "sculptLeg"^^xsd:string .
+	
+	_:blank1677 a prov:Derivation ;
+		prov:entity ex:h_2 .
+	
+	ex:s_3 prov:qualifiedDerivation _:blank1677 .
+	
+	_:blank1677 a "contained"^^xsd:string .
+	
+	_:blank1678 a prov:Derivation ;
+		prov:entity ex:l_3 .
+	
+	ex:s_3 prov:qualifiedDerivation _:blank1678 .
+	
+	_:blank1678 a "contained"^^xsd:string .
+	
+	_:blank1679 a prov:Derivation ;
+		prov:entity ex:l .
+	
+	ex:l_3 prov:qualifiedDerivation _:blank1679 .
+	
+	_:blank1679 a "refinementOf"^^xsd:string .
+	
+	_:blank1680 a prov:Derivation ;
+		prov:entity ex:s_2 .
+	
+	ex:s_3 prov:qualifiedDerivation _:blank1680 .
+	
+	_:blank1680 a "refinementOf"^^xsd:string .
+	
+	ex:l_3 prov:wasGeneratedBy ex:a2 .
+}

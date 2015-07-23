@@ -1,0 +1,665 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix prim: <http://openprovenance.org/primitives#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pc1: <http://www.ipaw.info/pc1/> .
+
+
+{
+	pc1:00000p1 a prov:Activity , prim:align_warp ;
+		rdfs:label "align_warp 1" .
+	
+	pc1:a2 a prov:Activity , prim:align_warp ;
+		rdfs:label "align_warp 2" .
+	
+	pc1:a3 a prov:Activity , prim:align_warp ;
+		rdfs:label "align_warp 3" .
+	
+	pc1:a4 a prov:Activity , prim:align_warp ;
+		rdfs:label "align_warp 4" .
+	
+	pc1:a5 a prov:Activity , "http://openprovenance.org/primitives#reslice"^^xsd:anyURI ;
+		rdfs:label "Reslice 1" .
+	
+	pc1:a6 a prov:Activity , "http://openprovenance.org/primitives#reslice"^^xsd:anyURI ;
+		rdfs:label "Reslice 2" .
+	
+	pc1:a7 a prov:Activity , "http://openprovenance.org/primitives#reslice"^^xsd:anyURI ;
+		rdfs:label "Reslice 3" .
+	
+	pc1:a8 a prov:Activity , "http://openprovenance.org/primitives#reslice"^^xsd:anyURI ;
+		rdfs:label "Reslice 4" .
+	
+	pc1:a9 a prov:Activity , "http://openprovenance.org/primitives#softmean"^^xsd:anyURI ;
+		rdfs:label "Softmean" .
+	
+	pc1:a10 a prov:Activity , "http://openprovenance.org/primitives#slicer"^^xsd:anyURI ;
+		rdfs:label "Slicer 1" .
+	
+	pc1:a11 a prov:Activity , "http://openprovenance.org/primitives#slicer"^^xsd:anyURI ;
+		rdfs:label "Slicer 2" .
+	
+	pc1:a12 a prov:Activity , "http://openprovenance.org/primitives#slicer"^^xsd:anyURI ;
+		rdfs:label "Slicer 3" .
+	
+	pc1:a13 a prov:Activity , "http://openprovenance.org/primitives#convert"^^xsd:anyURI ;
+		rdfs:label "Convert 1" .
+	
+	pc1:a14 a prov:Activity , "http://openprovenance.org/primitives#convert"^^xsd:anyURI ;
+		rdfs:label "Convert 2" .
+	
+	pc1:a15 a prov:Activity , "http://openprovenance.org/primitives#convert"^^xsd:anyURI ;
+		rdfs:label "Convert 3" .
+	
+	pc1:e1 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Reference Image" ;
+		pc1:url "http://www.ipaw.info/challenge/reference.img"^^xsd:string .
+	
+	pc1:e2 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Reference Header" ;
+		pc1:url "http://www.ipaw.info/challenge/reference.hdr"^^xsd:string .
+	
+	pc1:e5 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Anatomy I2" ;
+		pc1:url "http://www.ipaw.info/challenge/anatomy2.img"^^xsd:string .
+	
+	pc1:e6 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Anatomy H2" ;
+		pc1:url "http://www.ipaw.info/challenge/anatomy2.hdr"^^xsd:string .
+	
+	pc1:e3 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Anatomy I1" ;
+		pc1:url "http://www.ipaw.info/challenge/anatomy1.img"^^xsd:string .
+	
+	pc1:e4 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Anatomy H1" ;
+		pc1:url "http://www.ipaw.info/challenge/anatomy1.hdr"^^xsd:string .
+	
+	pc1:e7 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Anatomy I3" ;
+		pc1:url "http://www.ipaw.info/challenge/anatomy3.img"^^xsd:string .
+	
+	pc1:e8 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Anatomy H3" ;
+		pc1:url "http://www.ipaw.info/challenge/anatomy3.hdr"^^xsd:string .
+	
+	pc1:e9 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Anatomy I4" ;
+		pc1:url "http://www.ipaw.info/challenge/anatomy4.img"^^xsd:string .
+	
+	pc1:e10 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Anatomy H4" ;
+		pc1:url "http://www.ipaw.info/challenge/anatomy4.hdr"^^xsd:string .
+	
+	pc1:e11 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Warp Params1" ;
+		pc1:url "http://www.ipaw.info/challenge/warp1.warp"^^xsd:string .
+	
+	pc1:e12 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Warp Params2" ;
+		pc1:url "http://www.ipaw.info/challenge/warp2.warp"^^xsd:string .
+	
+	pc1:e13 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Warp Params3" ;
+		pc1:url "http://www.ipaw.info/challenge/warp3.warp"^^xsd:string .
+	
+	pc1:e14 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Warp Params4" ;
+		pc1:url "http://www.ipaw.info/challenge/warp4.warp"^^xsd:string .
+	
+	pc1:e15 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Resliced I1" ;
+		pc1:url "http://www.ipaw.info/challenge/resliced1.img"^^xsd:string .
+	
+	pc1:e16 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Resliced H1" ;
+		pc1:url "http://www.ipaw.info/challenge/resliced1.hdr"^^xsd:string .
+	
+	pc1:e17 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Resliced I2" ;
+		pc1:url "http://www.ipaw.info/challenge/resliced2.img"^^xsd:string .
+	
+	pc1:e18 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Resliced H2" ;
+		pc1:url "http://www.ipaw.info/challenge/resliced2.hdr"^^xsd:string .
+	
+	pc1:e19 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Resliced I3" ;
+		pc1:url "http://www.ipaw.info/challenge/resliced3.img"^^xsd:string .
+	
+	pc1:e20 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Resliced H3" ;
+		pc1:url "http://www.ipaw.info/challenge/resliced3.hdr"^^xsd:string .
+	
+	pc1:e21 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Resliced I4" ;
+		pc1:url "http://www.ipaw.info/challenge/resliced4.img"^^xsd:string .
+	
+	pc1:e22 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Resliced H4" ;
+		pc1:url "http://www.ipaw.info/challenge/resliced4.hdr"^^xsd:string .
+	
+	pc1:e23 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Atlas Image" ;
+		pc1:url "http://www.ipaw.info/challenge/atlas.img"^^xsd:string .
+	
+	pc1:e24 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Atlas Header" ;
+		pc1:url "http://www.ipaw.info/challenge/atlas.hdr"^^xsd:string .
+	
+	pc1:e25 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Atlas X Slice" ;
+		pc1:url "http://www.ipaw.info/challenge/atlas-x.pgm"^^xsd:string .
+	
+	pc1:e25p a prov:Entity , "http://openprovenance.org/primitives#String"^^xsd:string ;
+		rdfs:label "slicer param 1" ;
+		pc1:value "-x .5"^^xsd:string .
+	
+	pc1:e26 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Atlas Y Slice" ;
+		pc1:url "http://www.ipaw.info/challenge/atlas-y.pgm"^^xsd:string .
+	
+	pc1:e26p a prov:Entity , "http://openprovenance.org/primitives#String"^^xsd:string ;
+		rdfs:label "slicer param 2" ;
+		pc1:value "-y .5"^^xsd:string .
+	
+	pc1:e27 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Atlas Z Slice" ;
+		pc1:url "http://www.ipaw.info/challenge/atlas-z.pgm"^^xsd:string .
+	
+	pc1:e27p a prov:Entity , "http://openprovenance.org/primitives#String"^^xsd:string ;
+		rdfs:label "slicer param 3" ;
+		pc1:value "-z .5"^^xsd:string .
+	
+	pc1:e28 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Atlas X Graphic" ;
+		pc1:url "http://www.ipaw.info/challenge/atlas-x.gif"^^xsd:string .
+	
+	pc1:e29 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Atlas Y Graphic" ;
+		pc1:url "http://www.ipaw.info/challenge/atlas-y.gif"^^xsd:string .
+	
+	pc1:e30 a prov:Entity , "http://openprovenance.org/primitives#File"^^xsd:anyURI ;
+		rdfs:label "Atlas Z Graphic" ;
+		pc1:url "http://www.ipaw.info/challenge/atlas-z.gif"^^xsd:string .
+	
+	pc1:ag1 a prov:Agent ;
+		rdfs:label "John Doe" .
+	
+	_:blank1740 a prov:Usage ;
+		prov:entity pc1:e3 .
+	
+	pc1:00000p1 prov:qualifiedUsage _:blank1740 .
+	
+	_:blank1740 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1741 a prov:Usage ;
+		prov:entity pc1:e4 .
+	
+	pc1:00000p1 prov:qualifiedUsage _:blank1741 .
+	
+	_:blank1741 prov:hadRole "hdr"^^xsd:string .
+	
+	pc1:u3 a prov:Usage ;
+		prov:entity pc1:e1 .
+	
+	pc1:00000p1 prov:qualifiedUsage pc1:u3 .
+	
+	pc1:u3 prov:hadRole "imgRef"^^xsd:string .
+	
+	_:blank1742 a prov:Usage ;
+		prov:entity pc1:e2 .
+	
+	pc1:00000p1 prov:qualifiedUsage _:blank1742 .
+	
+	_:blank1742 prov:hadRole "hdrRef"^^xsd:string .
+	
+	_:blank1743 a prov:Usage ;
+		prov:entity pc1:e5 .
+	
+	pc1:a2 prov:qualifiedUsage _:blank1743 .
+	
+	_:blank1743 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1744 a prov:Usage ;
+		prov:entity pc1:e6 .
+	
+	pc1:a2 prov:qualifiedUsage _:blank1744 .
+	
+	_:blank1744 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1745 a prov:Usage ;
+		prov:entity pc1:e1 .
+	
+	pc1:a2 prov:qualifiedUsage _:blank1745 .
+	
+	_:blank1745 prov:hadRole "imgRef"^^xsd:string .
+	
+	_:blank1746 a prov:Usage ;
+		prov:entity pc1:e2 .
+	
+	pc1:a2 prov:qualifiedUsage _:blank1746 .
+	
+	_:blank1746 prov:hadRole "hdrRef"^^xsd:string .
+	
+	_:blank1747 a prov:Usage ;
+		prov:entity pc1:e7 .
+	
+	pc1:a3 prov:qualifiedUsage _:blank1747 .
+	
+	_:blank1747 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1748 a prov:Usage ;
+		prov:entity pc1:e8 .
+	
+	pc1:a3 prov:qualifiedUsage _:blank1748 .
+	
+	_:blank1748 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1749 a prov:Usage ;
+		prov:entity pc1:e1 .
+	
+	pc1:a3 prov:qualifiedUsage _:blank1749 .
+	
+	_:blank1749 prov:hadRole "imgRef"^^xsd:string .
+	
+	_:blank1750 a prov:Usage ;
+		prov:entity pc1:e2 .
+	
+	pc1:a3 prov:qualifiedUsage _:blank1750 .
+	
+	_:blank1750 prov:hadRole "hdrRef"^^xsd:string .
+	
+	_:blank1751 a prov:Usage ;
+		prov:entity pc1:e9 .
+	
+	pc1:a4 prov:qualifiedUsage _:blank1751 .
+	
+	_:blank1751 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1752 a prov:Usage ;
+		prov:entity pc1:e10 .
+	
+	pc1:a4 prov:qualifiedUsage _:blank1752 .
+	
+	_:blank1752 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1753 a prov:Usage ;
+		prov:entity pc1:e1 .
+	
+	pc1:a4 prov:qualifiedUsage _:blank1753 .
+	
+	_:blank1753 prov:hadRole "imgRef"^^xsd:string .
+	
+	_:blank1754 a prov:Usage ;
+		prov:entity pc1:e2 .
+	
+	pc1:a4 prov:qualifiedUsage _:blank1754 .
+	
+	_:blank1754 prov:hadRole "hdrRef"^^xsd:string .
+	
+	_:blank1755 a prov:Usage ;
+		prov:entity pc1:e11 .
+	
+	pc1:a5 prov:qualifiedUsage _:blank1755 .
+	
+	_:blank1755 prov:hadRole "in"^^xsd:string .
+	
+	_:blank1756 a prov:Usage ;
+		prov:entity pc1:e12 .
+	
+	pc1:a6 prov:qualifiedUsage _:blank1756 .
+	
+	_:blank1756 prov:hadRole "in"^^xsd:string .
+	
+	_:blank1757 a prov:Usage ;
+		prov:entity pc1:e13 .
+	
+	pc1:a7 prov:qualifiedUsage _:blank1757 .
+	
+	_:blank1757 prov:hadRole "in"^^xsd:string .
+	
+	_:blank1758 a prov:Usage ;
+		prov:entity pc1:e14 .
+	
+	pc1:a8 prov:qualifiedUsage _:blank1758 .
+	
+	_:blank1758 prov:hadRole "in"^^xsd:string .
+	
+	_:blank1759 a prov:Usage ;
+		prov:entity pc1:e15 .
+	
+	pc1:a9 prov:qualifiedUsage _:blank1759 .
+	
+	_:blank1759 prov:hadRole "i1"^^xsd:string .
+	
+	_:blank1760 a prov:Usage ;
+		prov:entity pc1:e16 .
+	
+	pc1:a9 prov:qualifiedUsage _:blank1760 .
+	
+	_:blank1760 prov:hadRole "h1"^^xsd:string .
+	
+	_:blank1761 a prov:Usage ;
+		prov:entity pc1:e17 .
+	
+	pc1:a9 prov:qualifiedUsage _:blank1761 .
+	
+	_:blank1761 prov:hadRole "i2"^^xsd:string .
+	
+	_:blank1762 a prov:Usage ;
+		prov:entity pc1:e18 .
+	
+	pc1:a9 prov:qualifiedUsage _:blank1762 .
+	
+	_:blank1762 prov:hadRole "h2"^^xsd:string .
+	
+	_:blank1763 a prov:Usage ;
+		prov:entity pc1:e19 .
+	
+	pc1:a9 prov:qualifiedUsage _:blank1763 .
+	
+	_:blank1763 prov:hadRole "i3"^^xsd:string .
+	
+	_:blank1764 a prov:Usage ;
+		prov:entity pc1:e20 .
+	
+	pc1:a9 prov:qualifiedUsage _:blank1764 .
+	
+	_:blank1764 prov:hadRole "h3"^^xsd:string .
+	
+	_:blank1765 a prov:Usage ;
+		prov:entity pc1:e21 .
+	
+	pc1:a9 prov:qualifiedUsage _:blank1765 .
+	
+	_:blank1765 prov:hadRole "i4"^^xsd:string .
+	
+	_:blank1766 a prov:Usage ;
+		prov:entity pc1:e22 .
+	
+	pc1:a9 prov:qualifiedUsage _:blank1766 .
+	
+	_:blank1766 prov:hadRole "h4"^^xsd:string .
+	
+	_:blank1767 a prov:Usage ;
+		prov:entity pc1:e23 .
+	
+	pc1:a10 prov:qualifiedUsage _:blank1767 .
+	
+	_:blank1767 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1768 a prov:Usage ;
+		prov:entity pc1:e24 .
+	
+	pc1:a10 prov:qualifiedUsage _:blank1768 .
+	
+	_:blank1768 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1769 a prov:Usage ;
+		prov:entity pc1:e23 .
+	
+	pc1:a11 prov:qualifiedUsage _:blank1769 .
+	
+	_:blank1769 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1770 a prov:Usage ;
+		prov:entity pc1:e24 .
+	
+	pc1:a11 prov:qualifiedUsage _:blank1770 .
+	
+	_:blank1770 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1771 a prov:Usage ;
+		prov:entity pc1:e23 .
+	
+	pc1:a12 prov:qualifiedUsage _:blank1771 .
+	
+	_:blank1771 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1772 a prov:Usage ;
+		prov:entity pc1:e24 .
+	
+	pc1:a12 prov:qualifiedUsage _:blank1772 .
+	
+	_:blank1772 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1773 a prov:Usage ;
+		prov:entity pc1:e25p .
+	
+	pc1:a10 prov:qualifiedUsage _:blank1773 .
+	
+	_:blank1773 prov:hadRole "param"^^xsd:string .
+	
+	_:blank1774 a prov:Usage ;
+		prov:entity pc1:e26p .
+	
+	pc1:a11 prov:qualifiedUsage _:blank1774 .
+	
+	_:blank1774 prov:hadRole "param"^^xsd:string .
+	
+	_:blank1775 a prov:Usage ;
+		prov:entity pc1:e27p .
+	
+	pc1:a12 prov:qualifiedUsage _:blank1775 .
+	
+	_:blank1775 prov:hadRole "param"^^xsd:string .
+	
+	_:blank1776 a prov:Usage ;
+		prov:entity pc1:e25 .
+	
+	pc1:a13 prov:qualifiedUsage _:blank1776 .
+	
+	_:blank1776 prov:hadRole "in"^^xsd:string .
+	
+	_:blank1777 a prov:Usage ;
+		prov:entity pc1:e26 .
+	
+	pc1:a14 prov:qualifiedUsage _:blank1777 .
+	
+	_:blank1777 prov:hadRole "in"^^xsd:string .
+	
+	_:blank1778 a prov:Usage ;
+		prov:entity pc1:e27 .
+	
+	pc1:a15 prov:qualifiedUsage _:blank1778 .
+	
+	_:blank1778 prov:hadRole "in"^^xsd:string .
+	
+	pc1:wgb1 a prov:Generation ;
+		prov:activity pc1:00000p1 .
+	
+	pc1:e11 prov:qualifiedGeneration pc1:wgb1 .
+	
+	pc1:wgb1 prov:hadRole "out"^^xsd:string .
+	
+	_:blank1779 a prov:Generation ;
+		prov:activity pc1:a2 .
+	
+	pc1:e12 prov:qualifiedGeneration _:blank1779 .
+	
+	_:blank1779 prov:hadRole "out"^^xsd:string .
+	
+	_:blank1780 a prov:Generation ;
+		prov:activity pc1:a3 .
+	
+	pc1:e13 prov:qualifiedGeneration _:blank1780 .
+	
+	_:blank1780 prov:hadRole "out"^^xsd:string .
+	
+	_:blank1781 a prov:Generation ;
+		prov:activity pc1:a4 .
+	
+	pc1:e14 prov:qualifiedGeneration _:blank1781 .
+	
+	_:blank1781 prov:hadRole "out"^^xsd:string .
+	
+	_:blank1782 a prov:Generation ;
+		prov:activity pc1:a5 .
+	
+	pc1:e15 prov:qualifiedGeneration _:blank1782 .
+	
+	_:blank1782 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1783 a prov:Generation ;
+		prov:activity pc1:a5 .
+	
+	pc1:e16 prov:qualifiedGeneration _:blank1783 .
+	
+	_:blank1783 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1784 a prov:Generation ;
+		prov:activity pc1:a6 .
+	
+	pc1:e17 prov:qualifiedGeneration _:blank1784 .
+	
+	_:blank1784 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1785 a prov:Generation ;
+		prov:activity pc1:a6 .
+	
+	pc1:e18 prov:qualifiedGeneration _:blank1785 .
+	
+	_:blank1785 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1786 a prov:Generation ;
+		prov:activity pc1:a7 .
+	
+	pc1:e19 prov:qualifiedGeneration _:blank1786 .
+	
+	_:blank1786 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1787 a prov:Generation ;
+		prov:activity pc1:a7 .
+	
+	pc1:e20 prov:qualifiedGeneration _:blank1787 .
+	
+	_:blank1787 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1788 a prov:Generation ;
+		prov:activity pc1:a8 .
+	
+	pc1:e21 prov:qualifiedGeneration _:blank1788 .
+	
+	_:blank1788 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1789 a prov:Generation ;
+		prov:activity pc1:a8 .
+	
+	pc1:e22 prov:qualifiedGeneration _:blank1789 .
+	
+	_:blank1789 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1790 a prov:Generation ;
+		prov:activity pc1:a9 .
+	
+	pc1:e23 prov:qualifiedGeneration _:blank1790 .
+	
+	_:blank1790 prov:hadRole "img"^^xsd:string .
+	
+	_:blank1791 a prov:Generation ;
+		prov:activity pc1:a9 .
+	
+	pc1:e24 prov:qualifiedGeneration _:blank1791 .
+	
+	_:blank1791 prov:hadRole "hdr"^^xsd:string .
+	
+	_:blank1792 a prov:Generation ;
+		prov:activity pc1:a10 .
+	
+	pc1:e25 prov:qualifiedGeneration _:blank1792 .
+	
+	_:blank1792 prov:hadRole "out"^^xsd:string .
+	
+	_:blank1793 a prov:Generation ;
+		prov:activity pc1:a11 .
+	
+	pc1:e26 prov:qualifiedGeneration _:blank1793 .
+	
+	_:blank1793 prov:hadRole "out"^^xsd:string .
+	
+	_:blank1794 a prov:Generation ;
+		prov:activity pc1:a12 .
+	
+	pc1:e27 prov:qualifiedGeneration _:blank1794 .
+	
+	_:blank1794 prov:hadRole "out"^^xsd:string .
+	
+	_:blank1795 a prov:Generation ;
+		prov:activity pc1:a13 .
+	
+	pc1:e28 prov:qualifiedGeneration _:blank1795 .
+	
+	_:blank1795 prov:atTime "2012-10-26T09:58:08.407+01:00"^^xsd:dateTime ;
+		prov:hadRole "out"^^xsd:string .
+	
+	_:blank1796 a prov:Generation ;
+		prov:activity pc1:a14 .
+	
+	pc1:e29 prov:qualifiedGeneration _:blank1796 .
+	
+	_:blank1796 prov:atTime "2012-10-26T09:58:08.407+01:00"^^xsd:dateTime ;
+		prov:hadRole "out"^^xsd:string .
+	
+	_:blank1797 a prov:Generation ;
+		prov:activity pc1:a15 .
+	
+	pc1:e30 prov:qualifiedGeneration _:blank1797 .
+	
+	_:blank1797 prov:atTime "2012-10-26T09:58:08.407+01:00"^^xsd:dateTime ;
+		prov:hadRole "out"^^xsd:string .
+	
+	_:blank1798 a prov:Derivation ;
+		prov:entity pc1:e1 .
+	
+	pc1:e11 prov:qualifiedDerivation _:blank1798 .
+	
+	_:blank1798 prov:hadActivity pc1:00000p1 ;
+		prov:hadGeneration pc1:wgb1 ;
+		prov:hadUsage pc1:u3 .
+	
+	pc1:e11 prov:wasDerivedFrom pc1:e2 , pc1:e3 , pc1:e4 .
+	
+	pc1:e12 prov:wasDerivedFrom pc1:e1 , pc1:e2 , pc1:e5 , pc1:e6 .
+	
+	pc1:e13 prov:wasDerivedFrom pc1:e1 , pc1:e2 , pc1:e7 , pc1:e8 .
+	
+	pc1:e14 prov:wasDerivedFrom pc1:e1 , pc1:e2 , pc1:e9 , pc1:e10 .
+	
+	pc1:e15 prov:wasDerivedFrom pc1:e11 .
+	
+	pc1:e16 prov:wasDerivedFrom pc1:e11 .
+	
+	pc1:e17 prov:wasDerivedFrom pc1:e12 .
+	
+	pc1:e18 prov:wasDerivedFrom pc1:e12 .
+	
+	pc1:e19 prov:wasDerivedFrom pc1:e13 .
+	
+	pc1:e20 prov:wasDerivedFrom pc1:e13 .
+	
+	pc1:e21 prov:wasDerivedFrom pc1:e14 .
+	
+	pc1:e22 prov:wasDerivedFrom pc1:e14 .
+	
+	pc1:e23 prov:wasDerivedFrom pc1:e15 , pc1:e16 , pc1:e17 , pc1:e18 , pc1:e19 , pc1:e20 , pc1:e21 , pc1:e22 .
+	
+	pc1:e24 prov:wasDerivedFrom pc1:e15 , pc1:e16 , pc1:e17 , pc1:e18 , pc1:e19 , pc1:e20 , pc1:e21 , pc1:e22 .
+	
+	pc1:e25 prov:wasDerivedFrom pc1:e23 , pc1:e24 .
+	
+	pc1:e26 prov:wasDerivedFrom pc1:e23 , pc1:e24 .
+	
+	pc1:e27 prov:wasDerivedFrom pc1:e23 , pc1:e24 .
+	
+	pc1:e28 prov:wasDerivedFrom pc1:e25 .
+	
+	pc1:e29 prov:wasDerivedFrom pc1:e26 .
+	
+	pc1:e30 prov:wasDerivedFrom pc1:e27 .
+	
+	pc1:waw1 a prov:Association ;
+		prov:agent pc1:ag1 .
+	
+	pc1:00000p1 prov:qualifiedAssociation pc1:waw1 .
+}

@@ -34,19 +34,26 @@ PROV-XML import/export
 
 testcase1
 
-* Derived from [primer.pn](https://raw.github.com/lucmoreau/ProvToolbox/master/prov-n/src/test/resources/prov/primer.pn) one of the example documents in the URL drop-down on both [ProvTranslator](https://provenance.ecs.soton.ac.uk/validator/view/translator.html) and [ProvValidator](https://provenance.ecs.soton.ac.uk/validator/view/validator.html). 
+* Created from [primer.pn](https://raw.github.com/lucmoreau/ProvToolbox/master/prov-n/src/test/resources/prov/primer.pn) available as "Primer" example in [ProvTranslator](https://provenance.ecs.soton.ac.uk/validator/view/translator.html) and [ProvValidator](https://provenance.ecs.soton.ac.uk/validator/view/validator.html). 
 * Each document was manually created from primer.pn using these online forms.
 
-testcase2 
+testcase2
 
 * testcase2.json was created by running [ProvPy](https://github.com/trungdong/prov)'s [PROV document with a bundle](http://prov.readthedocs.org/en/latest/usage.html#prov-document-with-a-bundle) example.
-*  Other documents were creatyed using [ProvToolbox](https://github.com/lucmoreau/ProvToolbox/) prov-convert script on testcase2.json.
+* Other documents were creatyed using [ProvToolbox](https://github.com/lucmoreau/ProvToolbox/) prov-convert script on testcase2.json.
 
 testcase3
 
-* Copy of testcase 2.
+Copy of testcase2.
+
+testcase4
+
+* Created from [sculpture.prov-asn](https://raw.github.com/lucmoreau/ProvToolbox/master/prov-n/src/test/resources/prov/sculpture.prov-asn) available as "Sculpture" example in ProvTranslator and ProvValidator.
+
+testcase5
+
+* Created from [pc1.xml](https://raw.github.com/lucmoreau/ProvToolbox/master/prov-xml/src/test/resources/pc1.xml) available as "PC1" in ProvTranslator and ProvValidator
 
 ## License
 
 These test cases are released under the MIT license.
-
