@@ -1,0 +1,13 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "specializationOf": {
+    "_:sO1": {
+      "prov:specificEntity": "ex:e2",
+      "prov:generalEntity": "ex:e1"
+    }
+  }
+}

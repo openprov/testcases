@@ -1,0 +1,29 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "entity": {
+    "ex:entity-HE": {
+      "ex:title3": {
+        "$": "ex:חברה",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "ex:title1": [
+        {
+          "$": "דג סקרן שט בים מאוכזב ולפתע מצא חברה",
+          "lang": "he"
+        },
+        {
+          "$": "A curious fish sailed the sea disappointedly, and suddenly found company",
+          "lang": "en"
+        }
+      ],
+      "ex:חברה": {
+        "$": "ex:test",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "entity": {
+    "ex:entity-FR": {
+      "ex:title3": {
+        "$": "ex:préfère",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "ex:title1": {
+        "$": "Portez ce vieux whisky au juge blond qui a fumé",
+        "lang": "fr"
+      },
+      "ex:title2": {
+        "$": "Voix ambiguë d’un cœur qui au zéphyr préfère les jattes de kiwi",
+        "lang": "fr"
+      },
+      "ex:ambiguë_cœur": {
+        "$": "ex:test",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

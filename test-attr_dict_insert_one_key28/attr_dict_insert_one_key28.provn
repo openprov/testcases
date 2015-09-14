@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:dins_28;ex:d2,ex:d1,{("2013" %% xsd:gYear, ex:e0)})
+endDocument

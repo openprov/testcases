@@ -1,0 +1,37 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "entity": {
+    "ex:e0": {
+      "prov:location": [
+        {
+          "$": "un llieu",
+          "type": "xsd:string"
+        },
+        {
+          "$": "1",
+          "type": "xsd:int"
+        },
+        {
+          "$": "2.0",
+          "type": "xsd:double"
+        },
+        {
+          "$": "http://example.org/london",
+          "type": "xsd:anyURI"
+        },
+        {
+          "$": "2",
+          "type": "xsd:long"
+        }
+      ],
+      "ex:tag2": {
+        "$": "bonjour",
+        "lang": "fr"
+      }
+    }
+  }
+}

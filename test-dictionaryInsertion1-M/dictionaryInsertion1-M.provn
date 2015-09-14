@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:d2,ex:d1,{})
+endDocument

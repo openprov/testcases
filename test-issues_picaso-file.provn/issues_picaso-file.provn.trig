@@ -1,0 +1,95 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix uuid: <urn:uuid:> .
+@prefix eprint: <http://eprints.soton.ac.uk/id/eprint/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pic: <http://www.ipaw.info/ns/picaso#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ui: <http://openprovenance.org/ui#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix tmpl: <http://openprovenance.org/tmpl#> .
+@prefix personid: <http://eprints.soton.ac.uk/id/person/> .
+
+
+uuid:55348dff-4fcc-4ac2-ab56-641798c64400 {
+	eprint:363608 a prov:Entity , pic:Article ;
+		rdfs:label "Collective intelligence in citizen science  a study of performers and talkers" ;
+		ui:type pic:Article , pic:Book , pic:Code , pic:Dataset , pic:Figure , pic:Poster , pic:Slides , pic:Table , pic:Tweet ;
+		ui:minimum "1"^^xsd:int ;
+		ui:maximum "1"^^xsd:int ;
+		tmpl:order "[0]"^^xsd:string .
+	
+	personid:ext-67702 a prov:Agent , prov:Person ;
+		rdfs:label "Ramine Tinati" ;
+		ui:type prov:Person , prov:Organization ;
+		ui:minimum "1"^^xsd:int ;
+		tmpl:order "[0]"^^xsd:string .
+	
+	personid:ext-82600 a prov:Agent , prov:Person ;
+		rdfs:label "Elena Simperl" ;
+		ui:type prov:Person , prov:Organization ;
+		ui:minimum "1"^^xsd:int ;
+		tmpl:order "[1]"^^xsd:string .
+	
+	personid:ext-82858 a prov:Agent , prov:Person ;
+		rdfs:label "Markus Luczak-Rösch" ;
+		ui:type prov:Person , prov:Organization ;
+		ui:minimum "1"^^xsd:int ;
+		tmpl:order "[2]"^^xsd:string .
+	
+	personid:ext-63776 a prov:Agent , prov:Person ;
+		rdfs:label "Max Van Kleek" ;
+		ui:type prov:Person , prov:Organization ;
+		ui:minimum "1"^^xsd:int ;
+		tmpl:order "[3]"^^xsd:string .
+	
+	personid:ext-45004 a prov:Agent , prov:Person ;
+		rdfs:label "Nigel Shadbolt" ;
+		ui:type prov:Person , prov:Organization ;
+		ui:minimum "1"^^xsd:int ;
+		tmpl:order "[4]"^^xsd:string .
+	
+	_:blank1 a prov:Attribution ;
+		prov:agent personid:ext-67702 .
+	
+	eprint:363608 prov:qualifiedAttribution _:blank1 .
+	
+	_:blank1 a pic:Author ;
+		ui:type pic:Author , pic:Contributor , pic:Editor , pic:Reviewer , pic:Funder ;
+		tmpl:order "[0, 0]"^^xsd:string .
+	
+	_:blank2 a prov:Attribution ;
+		prov:agent personid:ext-82600 .
+	
+	eprint:363608 prov:qualifiedAttribution _:blank2 .
+	
+	_:blank2 a pic:Author ;
+		ui:type pic:Author , pic:Contributor , pic:Editor , pic:Reviewer , pic:Funder ;
+		tmpl:order "[1, 0]"^^xsd:string .
+	
+	_:blank3 a prov:Attribution ;
+		prov:agent personid:ext-82858 .
+	
+	eprint:363608 prov:qualifiedAttribution _:blank3 .
+	
+	_:blank3 a pic:Author ;
+		ui:type pic:Author , pic:Contributor , pic:Editor , pic:Reviewer , pic:Funder ;
+		tmpl:order "[2, 0]"^^xsd:string .
+	
+	_:blank4 a prov:Attribution ;
+		prov:agent personid:ext-63776 .
+	
+	eprint:363608 prov:qualifiedAttribution _:blank4 .
+	
+	_:blank4 a pic:Author ;
+		ui:type pic:Author , pic:Contributor , pic:Editor , pic:Reviewer , pic:Funder ;
+		tmpl:order "[3, 0]"^^xsd:string .
+	
+	_:blank5 a prov:Attribution ;
+		prov:agent personid:ext-45004 .
+	
+	eprint:363608 prov:qualifiedAttribution _:blank5 .
+	
+	_:blank5 a pic:Author ;
+		ui:type pic:Author , pic:Contributor , pic:Editor , pic:Reviewer , pic:Funder ;
+		tmpl:order "[4, 0]"^^xsd:string .
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:other="http://example.org/">
+    <prov:derivedByInsertionFrom prov:id="other:dins__22">
+        <prov:newDictionary prov:ref="other:d2"/>
+        <prov:oldDictionary prov:ref="other:d1"/>
+        <prov:keyEntityPair>
+            <prov:key xsi:type="xsd:QName">other:abcd</prov:key>
+            <prov:entity prov:ref="other:e0"/>
+        </prov:keyEntityPair>
+    </prov:derivedByInsertionFrom>
+</prov:document>

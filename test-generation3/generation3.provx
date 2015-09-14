@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:wasGeneratedBy prov:id="ex:gen3">
+        <prov:entity prov:ref="ex:e1"/>
+        <prov:activity prov:ref="ex:a1"/>
+        <prov:role xsi:type="xsd:string">somerole</prov:role>
+        <prov:role xsi:type="xsd:string">otherRole</prov:role>
+    </prov:wasGeneratedBy>
+</prov:document>

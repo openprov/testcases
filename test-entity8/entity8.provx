@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:entity prov:id="ex:e8">
+        <prov:label>entity8</prov:label>
+        <prov:label>hello</prov:label>
+        <prov:label xml:lang="en">bye</prov:label>
+        <prov:label xml:lang="fr">bonjour</prov:label>
+        <prov:label>hello</prov:label>
+        <prov:label xml:lang="en">bye</prov:label>
+        <prov:label xml:lang="fr">bonjour</prov:label>
+        <prov:location xsi:type="xsd:string">London</prov:location>
+        <prov:location xsi:type="xsd:int">1</prov:location>
+        <prov:location xsi:type="xsd:float">1.0</prov:location>
+        <prov:location xsi:type="xsd:boolean">true</prov:location>
+        <prov:location xsi:type="xsd:QName">ex:london</prov:location>
+        <prov:location xsi:type="xsd:dateTime">2015-09-09T21:42:16.360+01:00</prov:location>
+        <prov:location xsi:type="xsd:anyURI">http://example.org/london</prov:location>
+        <prov:location xsi:type="xsd:gYear">2002</prov:location>
+        <prov:location xsi:type="xsd:string">London</prov:location>
+        <prov:location xsi:type="xsd:int">1</prov:location>
+        <prov:location xsi:type="xsd:float">1.0</prov:location>
+        <prov:location xsi:type="xsd:boolean">true</prov:location>
+        <prov:location xsi:type="xsd:QName">ex:london</prov:location>
+        <prov:location xsi:type="xsd:dateTime">2015-09-09T21:42:16.360+01:00</prov:location>
+        <prov:location xsi:type="xsd:anyURI">http://example.org/london</prov:location>
+        <prov:location xsi:type="xsd:gYear">2002</prov:location>
+        <prov:type xsi:type="xsd:string">a</prov:type>
+        <prov:type xsi:type="xsd:int">1</prov:type>
+        <prov:type xsi:type="xsd:float">1.0</prov:type>
+        <prov:type xsi:type="xsd:string">true</prov:type>
+        <prov:type xsi:type="xsd:QName">ex:abc</prov:type>
+        <prov:type xsi:type="xsd:dateTime">2015-09-09T21:42:16.360+01:00</prov:type>
+        <prov:type xsi:type="xsd:anyURI">http://example.org/hello</prov:type>
+        <prov:type xsi:type="xsd:string">a</prov:type>
+        <prov:type xsi:type="xsd:int">1</prov:type>
+        <prov:type xsi:type="xsd:float">1.0</prov:type>
+        <prov:type xsi:type="xsd:string">true</prov:type>
+        <prov:type xsi:type="xsd:QName">ex:abc</prov:type>
+        <prov:type xsi:type="xsd:dateTime">2015-09-09T21:42:16.360+01:00</prov:type>
+        <prov:type xsi:type="xsd:anyURI">http://example.org/hello</prov:type>
+    </prov:entity>
+</prov:document>

@@ -1,0 +1,5 @@
+document
+prefix ex <http://example.org/>
+prefix ex2 <http://example2.org/>
+entity(ex:100-entity,[prov:label = "entity100", ex:a01b\[c = 'ex2:\=\'\(\)\,-\:\;\[\]\.', ex:a01bc = 'ex2:\=\'\(\)\,-\:\;\[\]\.', ex:unicode = 'ex2:À-ÖØ-öø-', ex:À-ÖØ-öø- = 'ex2:unicode', ex:?a\=b = "1" %% xsd:int, ex:123 = "mystring" %% xsd:string, ex:123 = "ma chaine"@fr])
+endDocument

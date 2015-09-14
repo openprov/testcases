@@ -1,0 +1,59 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/",
+    "ex2": "http://example2.org/"
+  },
+  "derivedByInsertionFrom": {
+    "ex:deriv5": {
+      "prov:key-entity-set": [
+        {
+          "key": {
+            "$": "a",
+            "type": "xsd:string"
+          },
+          "$": "ex:e0"
+        },
+        {
+          "key": {
+            "$": "1",
+            "type": "xsd:int"
+          },
+          "$": "ex:e1"
+        },
+        {
+          "key": {
+            "$": "ex:a",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "$": "ex:e2"
+        }
+      ],
+      "ex:0tagWithDigit": {
+        "$": "hello",
+        "type": "xsd:string"
+      },
+      "prov:after": "ex:d2",
+      "ex2:tag3": {
+        "$": "hi",
+        "type": "xsd:string"
+      },
+      "ex:tag1": [
+        {
+          "$": "hello",
+          "type": "xsd:string"
+        },
+        {
+          "$": "hello\nover\nmore\nlines",
+          "type": "xsd:string"
+        }
+      ],
+      "ex:tag2": {
+        "$": "bye",
+        "type": "xsd:string"
+      },
+      "prov:before": "ex:d1"
+    }
+  }
+}

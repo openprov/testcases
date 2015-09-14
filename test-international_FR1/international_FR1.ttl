@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+ex:entity-FR a prov:Entity ;
+	ex:title1 "Portez ce vieux whisky au juge blond qui a fumé"@fr ;
+	ex:title2 "Voix ambiguë d’un cœur qui au zéphyr préfère les jattes de kiwi"@fr ;
+	ex:title3 ex:préfère ;
+	ex:ambiguë_cœur ex:test .

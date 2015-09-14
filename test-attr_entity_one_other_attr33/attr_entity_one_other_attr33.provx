@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:entity prov:id="ex:en__o33">
+        <ex:tag2 xsi:type="xsd:hexBinary">000102220506</ex:tag2>
+    </prov:entity>
+</prov:document>

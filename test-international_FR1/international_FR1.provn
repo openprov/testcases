@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+entity(ex:entity-FR,[ex:title1 = "Portez ce vieux whisky au juge blond qui a fumé"@fr, ex:title2 = "Voix ambiguë d’un cœur qui au zéphyr préfère les jattes de kiwi"@fr, ex:title3 = 'ex:préfère', ex:ambiguë_cœur = 'ex:test'])
+endDocument

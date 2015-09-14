@@ -1,0 +1,23 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "entity": {
+    "ex:e4": {
+      "prov:label": [
+        "entity4",
+        "hello",
+        {
+          "$": "bye",
+          "lang": "en"
+        },
+        {
+          "$": "bonjour",
+          "lang": "fr"
+        }
+      ]
+    }
+  }
+}

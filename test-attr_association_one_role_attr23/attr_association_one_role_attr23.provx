@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://example.org/">
+    <prov:wasAssociatedWith prov:id="ass__r23">
+        <prov:activity prov:ref="a1"/>
+        <prov:agent prov:ref="ag1"/>
+        <prov:role xsi:type="xsd:QName">abcde</prov:role>
+    </prov:wasAssociatedWith>
+</prov:document>

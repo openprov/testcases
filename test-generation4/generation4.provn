@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+wasGeneratedBy(ex:gen4;ex:e1,ex:a1,2015-09-09T21:42:16.479+01:00,[prov:role = "somerole" %% xsd:string])
+endDocument

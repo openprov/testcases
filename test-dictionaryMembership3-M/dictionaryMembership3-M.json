@@ -1,0 +1,23 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "hadDictionaryMember": {
+    "_:hDM2": {
+      "prov:key-entity-set": {
+        "$key-datatype": "xsd:int",
+        "1": "ex:e1"
+      },
+      "prov:dictionary": "ex:d"
+    },
+    "_:hDM1": {
+      "prov:key-entity-set": {
+        "$key-datatype": "xsd:string",
+        "a": "ex:e0"
+      },
+      "prov:dictionary": "ex:d"
+    }
+  }
+}

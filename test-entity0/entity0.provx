@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:entity prov:id="ex:e0">
+        <prov:location xsi:type="xsd:string">un llieu</prov:location>
+        <prov:location xsi:type="xsd:int">1</prov:location>
+        <prov:location xsi:type="xsd:double">2.0</prov:location>
+        <prov:location xsi:type="xsd:anyURI">http://example.org/london</prov:location>
+        <prov:location xsi:type="xsd:long">2</prov:location>
+        <ex:tag2 xml:lang="fr" xsi:type="prov:InternationalizedString">bonjour</ex:tag2>
+    </prov:entity>
+</prov:document>

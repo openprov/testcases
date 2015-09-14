@@ -1,0 +1,18 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "ex": "http://example.org/"
+  },
+  "derivedByInsertionFrom": {
+    "ex:dins_42": {
+      "prov:key-entity-set": {
+        "$key-datatype": "rdf:XMLLiteral",
+        "\u003cap:aaa xmlns:ap\u003d\"http://app/\"\u003e\u003cap:bbb\u003e\u003cap:ccc/\u003e\u003c/ap:bbb\u003e\u003c/ap:aaa\u003e": "ex:e0"
+      },
+      "prov:after": "ex:d2",
+      "prov:before": "ex:d1"
+    }
+  }
+}

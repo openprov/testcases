@@ -1,0 +1,14 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "wasStartedBy": {
+    "ex:start5": {
+      "prov:starter": "ex:a2",
+      "prov:trigger": "ex:e1",
+      "prov:activity": "ex:a1"
+    }
+  }
+}

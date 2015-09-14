@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://another.org/" xmlns:foo="http://example.org/">
+    <prov:entity prov:id="foo:bundle1">
+        <prov:type xsi:type="xsd:QName">prov:Bundle</prov:type>
+    </prov:entity>
+    <prov:entity prov:id="ex:bundle2">
+        <prov:type xsi:type="xsd:QName">prov:Bundle</prov:type>
+    </prov:entity>
+    <prov:bundleContent prov:id="foo:bundle1">
+        <prov:activity prov:id="foo:a1"/>
+        <prov:entity prov:id="foo:e1"/>
+        <prov:used prov:id="foo:use1">
+            <prov:activity prov:ref="foo:a1"/>
+            <prov:entity prov:ref="foo:e1"/>
+        </prov:used>
+    </prov:bundleContent>
+    <prov:bundleContent prov:id="ex:bundle2">
+        <prov:activity prov:id="ex:aa1"/>
+        <prov:entity prov:id="ex:ee1"/>
+        <prov:used prov:id="ex:use2">
+            <prov:activity prov:ref="ex:aa1"/>
+            <prov:entity prov:ref="ex:ee1"/>
+        </prov:used>
+    </prov:bundleContent>
+</prov:document>

@@ -1,0 +1,23 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "entity": {
+    "ex:entity-HE": {
+      "ex:title3": {
+        "$": "ex:わかよたれそ",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "ex:title1": {
+        "$": "いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせす（ん）",
+        "lang": "jp"
+      },
+      "ex:わかよたれそ": {
+        "$": "ex:test",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

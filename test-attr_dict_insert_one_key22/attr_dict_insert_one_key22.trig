@@ -1,0 +1,18 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix other: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+{
+	other:dins_22 a prov:Insertion ;
+		prov:dictionary other:d1 .
+	
+	other:d2 prov:qualifiedInsertion other:dins_22 .
+	
+	other:dins_22 prov:insertedKeyEntityPair _:blank1 .
+	
+	_:blank1 prov:pairKey "other:abcd"^^prov:QUALIFIED_NAME ;
+		prov:pairEntity other:e0 .
+}

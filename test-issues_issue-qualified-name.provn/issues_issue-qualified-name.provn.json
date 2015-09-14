@@ -1,0 +1,19 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "entity": {
+    "ex:e": {
+      "ex:attr1": {
+        "$": "ex:foo",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "ex:attr2": {
+        "$": "ex:bar",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

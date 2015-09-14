@@ -1,0 +1,8 @@
+document
+prefix ex <http://example.org/>
+prefix ex2 <http://example2.org/>
+prov:derivedByRemovalFrom(ex:removal5;ex:d2,ex:d1,{"a" %% xsd:string, "1" %% xsd:int, 'ex:a'},[ex:tag1 = "hello" %% xsd:string, ex:tag2 = "bye" %% xsd:string, ex2:tag3 = "hi" %% xsd:string, ex:tag1 = """hello
+over
+more
+lines""", ex:0tagWithDigit = "hello" %% xsd:string])
+endDocument

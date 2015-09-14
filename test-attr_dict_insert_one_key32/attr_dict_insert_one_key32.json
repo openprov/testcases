@@ -1,0 +1,17 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "derivedByInsertionFrom": {
+    "ex:dins_32": {
+      "prov:key-entity-set": {
+        "$key-datatype": "xsd:duration",
+        "PT1.222S": "ex:e0"
+      },
+      "prov:after": "ex:d2",
+      "prov:before": "ex:d1"
+    }
+  }
+}

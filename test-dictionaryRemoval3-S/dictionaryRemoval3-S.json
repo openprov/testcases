@@ -1,0 +1,19 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "derivedByRemovalFrom": {
+    "ex:removal3": {
+      "prov:after": "ex:d2",
+      "prov:key-set": [
+        {
+          "$": "a",
+          "type": "xsd:string"
+        }
+      ],
+      "prov:before": "ex:d1"
+    }
+  }
+}

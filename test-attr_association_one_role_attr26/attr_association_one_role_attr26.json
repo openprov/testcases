@@ -1,0 +1,18 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "default": "http://example4.org/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "wasAssociatedWith": {
+    "ex:ass_r26": {
+      "prov:agent": "ex:ag1",
+      "prov:role": {
+        "$": "zabcde",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:activity": "ex:a1"
+    }
+  }
+}

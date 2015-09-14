@@ -1,0 +1,16 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/",
+    "exo": "http://example.org/"
+  },
+  "entity": {
+    "ex:en_o27": {
+      "ex:tag2": {
+        "$": "2015-09-09T21:42:14.879+01:00",
+        "type": "xsd:dateTime"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "entity": {
+    "ex:entity-HE": {
+      "ex:Любя": {
+        "$": "ex:test",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "ex:title3": {
+        "$": "ex:Любя",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "ex:title1": [
+        {
+          "$": "Любя, съешь щипцы, — вздохнёт мэр, — Кайф жгуч!",
+          "lang": "ru"
+        },
+        {
+          "$": "The mayor will sigh, “Eat the pliers with love; pleasure burns!",
+          "lang": "en"
+        }
+      ]
+    }
+  }
+}

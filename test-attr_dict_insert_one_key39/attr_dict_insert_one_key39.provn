@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:dins_39;ex:d2,ex:d1,{("NMTOK" %% xsd:NMTOKEN, ex:e0)})
+endDocument

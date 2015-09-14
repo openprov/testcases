@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:dins_41;ex:d2,ex:d1,{("NCName" %% xsd:NCName, ex:e0)})
+endDocument

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/" xmlns:ex2="http://example2.org/">
+    <prov:entity prov:id="ex:_100-entity">
+        <prov:label>entity100</prov:label>
+        <ex:a01b_5Bc xsi:type="xsd:QName">ex2:__3D_27_28_29_2C-_3A_3B_5B_5D.</ex:a01b_5Bc>
+        <ex:a01bc xsi:type="xsd:QName">ex2:__3D_27_28_29_2C-_3A_3B_5B_5D.</ex:a01bc>
+        <ex:unicode xsi:type="xsd:QName">ex2:À-ÖØ-öø-</ex:unicode>
+        <ex:À-ÖØ-öø- xsi:type="xsd:QName">ex2:unicode</ex:À-ÖØ-öø->
+        <ex:__3Fa_3Db xsi:type="xsd:int">1</ex:__3Fa_3Db>
+        <ex:_123 xsi:type="xsd:string">mystring</ex:_123>
+        <ex:_123 xml:lang="fr" xsi:type="prov:InternationalizedString">ma chaine</ex:_123>
+    </prov:entity>
+</prov:document>

@@ -1,0 +1,16 @@
+{
+  "hadMember": {
+    "_:hM1": {
+      "prov:collection": "ex:e2"
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "entity": {
+    "ex:e2": {},
+    "ex:e1": {}
+  }
+}

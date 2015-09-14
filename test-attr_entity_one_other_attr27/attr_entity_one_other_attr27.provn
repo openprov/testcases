@@ -1,0 +1,5 @@
+document
+prefix ex <http://example.org/>
+prefix exo <http://example.org/>
+entity(ex:en_o27,[ex:tag2 = "2015-09-09T21:42:14.879+01:00" %% xsd:dateTime])
+endDocument

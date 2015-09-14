@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:dins_37;ex:d2,ex:d1,{("normal" %% xsd:normalizedString, ex:e0)})
+endDocument

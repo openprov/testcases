@@ -1,0 +1,13 @@
+{
+  "activity": {
+    "ex:a1": {
+      "prov:startTime": "2015-09-09T21:42:16.509+01:00",
+      "prov:endTime": "2015-09-09T21:42:16.509+01:00"
+    }
+  },
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  }
+}

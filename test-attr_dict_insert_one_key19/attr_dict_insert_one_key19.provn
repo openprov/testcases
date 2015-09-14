@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:dins_19;ex:d2,ex:d1,{("10" %% xsd:unsignedByte, ex:e0)})
+endDocument

@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:dins_31;ex:d2,ex:d1,{("PT12.225S" %% xsd:duration, ex:e0)})
+endDocument

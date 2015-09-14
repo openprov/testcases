@@ -1,0 +1,18 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "default": "http://example.org/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "derivedByInsertionFrom": {
+    "dins_23": {
+      "prov:key-entity-set": {
+        "$key-datatype": "prov:QUALIFIED_NAME",
+        "abcde": "e0"
+      },
+      "prov:after": "d2",
+      "prov:before": "d1"
+    }
+  }
+}

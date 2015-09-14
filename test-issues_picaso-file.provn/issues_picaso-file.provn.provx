@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:eprint="http://eprints.soton.ac.uk/id/eprint/" xmlns:tmpl="http://openprovenance.org/tmpl#" xmlns:ui="http://openprovenance.org/ui#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:personid="http://eprints.soton.ac.uk/id/person/" xmlns:pic="http://www.ipaw.info/ns/picaso#" xmlns:uuid="urn:uuid:">
+    <prov:bundleContent prov:id="uuid:_55348dff-4fcc-4ac2-ab56-641798c64400">
+        <prov:entity prov:id="eprint:_363608">
+            <prov:label>Collective intelligence in citizen science  a study of performers and talkers</prov:label>
+            <prov:type xsi:type="xsd:QName">pic:Article</prov:type>
+            <ui:type xsi:type="xsd:QName">pic:Article</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Book</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Code</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Dataset</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Figure</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Poster</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Slides</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Table</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Tweet</ui:type>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <ui:maximum xsi:type="xsd:int">1</ui:maximum>
+            <tmpl:order xsi:type="xsd:string">[0]</tmpl:order>
+        </prov:entity>
+        <prov:agent prov:id="personid:ext-67702">
+            <prov:label>Ramine Tinati</prov:label>
+            <prov:type xsi:type="xsd:QName">prov:Person</prov:type>
+            <ui:type xsi:type="xsd:QName">prov:Person</ui:type>
+            <ui:type xsi:type="xsd:QName">prov:Organization</ui:type>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <tmpl:order xsi:type="xsd:string">[0]</tmpl:order>
+        </prov:agent>
+        <prov:agent prov:id="personid:ext-82600">
+            <prov:label>Elena Simperl</prov:label>
+            <prov:type xsi:type="xsd:QName">prov:Person</prov:type>
+            <ui:type xsi:type="xsd:QName">prov:Person</ui:type>
+            <ui:type xsi:type="xsd:QName">prov:Organization</ui:type>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <tmpl:order xsi:type="xsd:string">[1]</tmpl:order>
+        </prov:agent>
+        <prov:agent prov:id="personid:ext-82858">
+            <prov:label>Markus Luczak-Rösch</prov:label>
+            <prov:type xsi:type="xsd:QName">prov:Person</prov:type>
+            <ui:type xsi:type="xsd:QName">prov:Person</ui:type>
+            <ui:type xsi:type="xsd:QName">prov:Organization</ui:type>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <tmpl:order xsi:type="xsd:string">[2]</tmpl:order>
+        </prov:agent>
+        <prov:agent prov:id="personid:ext-63776">
+            <prov:label>Max Van Kleek</prov:label>
+            <prov:type xsi:type="xsd:QName">prov:Person</prov:type>
+            <ui:type xsi:type="xsd:QName">prov:Person</ui:type>
+            <ui:type xsi:type="xsd:QName">prov:Organization</ui:type>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <tmpl:order xsi:type="xsd:string">[3]</tmpl:order>
+        </prov:agent>
+        <prov:agent prov:id="personid:ext-45004">
+            <prov:label>Nigel Shadbolt</prov:label>
+            <prov:type xsi:type="xsd:QName">prov:Person</prov:type>
+            <ui:type xsi:type="xsd:QName">prov:Person</ui:type>
+            <ui:type xsi:type="xsd:QName">prov:Organization</ui:type>
+            <ui:minimum xsi:type="xsd:int">1</ui:minimum>
+            <tmpl:order xsi:type="xsd:string">[4]</tmpl:order>
+        </prov:agent>
+        <prov:wasAttributedTo>
+            <prov:entity prov:ref="eprint:_363608"/>
+            <prov:agent prov:ref="personid:ext-67702"/>
+            <prov:type xsi:type="xsd:QName">pic:Author</prov:type>
+            <ui:type xsi:type="xsd:QName">pic:Author</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Contributor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Editor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Reviewer</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Funder</ui:type>
+            <tmpl:order xsi:type="xsd:string">[0, 0]</tmpl:order>
+        </prov:wasAttributedTo>
+        <prov:wasAttributedTo>
+            <prov:entity prov:ref="eprint:_363608"/>
+            <prov:agent prov:ref="personid:ext-82600"/>
+            <prov:type xsi:type="xsd:QName">pic:Author</prov:type>
+            <ui:type xsi:type="xsd:QName">pic:Author</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Contributor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Editor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Reviewer</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Funder</ui:type>
+            <tmpl:order xsi:type="xsd:string">[1, 0]</tmpl:order>
+        </prov:wasAttributedTo>
+        <prov:wasAttributedTo>
+            <prov:entity prov:ref="eprint:_363608"/>
+            <prov:agent prov:ref="personid:ext-82858"/>
+            <prov:type xsi:type="xsd:QName">pic:Author</prov:type>
+            <ui:type xsi:type="xsd:QName">pic:Author</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Contributor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Editor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Reviewer</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Funder</ui:type>
+            <tmpl:order xsi:type="xsd:string">[2, 0]</tmpl:order>
+        </prov:wasAttributedTo>
+        <prov:wasAttributedTo>
+            <prov:entity prov:ref="eprint:_363608"/>
+            <prov:agent prov:ref="personid:ext-63776"/>
+            <prov:type xsi:type="xsd:QName">pic:Author</prov:type>
+            <ui:type xsi:type="xsd:QName">pic:Author</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Contributor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Editor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Reviewer</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Funder</ui:type>
+            <tmpl:order xsi:type="xsd:string">[3, 0]</tmpl:order>
+        </prov:wasAttributedTo>
+        <prov:wasAttributedTo>
+            <prov:entity prov:ref="eprint:_363608"/>
+            <prov:agent prov:ref="personid:ext-45004"/>
+            <prov:type xsi:type="xsd:QName">pic:Author</prov:type>
+            <ui:type xsi:type="xsd:QName">pic:Author</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Contributor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Editor</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Reviewer</ui:type>
+            <ui:type xsi:type="xsd:QName">pic:Funder</ui:type>
+            <tmpl:order xsi:type="xsd:string">[4, 0]</tmpl:order>
+        </prov:wasAttributedTo>
+    </prov:bundleContent>
+</prov:document>

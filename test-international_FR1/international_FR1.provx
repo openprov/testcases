@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:entity prov:id="ex:entity-FR">
+        <ex:title1 xml:lang="fr" xsi:type="prov:InternationalizedString">Portez ce vieux whisky au juge blond qui a fumé</ex:title1>
+        <ex:title2 xml:lang="fr" xsi:type="prov:InternationalizedString">Voix ambiguë d’un cœur qui au zéphyr préfère les jattes de kiwi</ex:title2>
+        <ex:title3 xsi:type="xsd:QName">ex:préfère</ex:title3>
+        <ex:ambiguë__cœur xsi:type="xsd:QName">ex:test</ex:ambiguë__cœur>
+    </prov:entity>
+</prov:document>

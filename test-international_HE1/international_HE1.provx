@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:entity prov:id="ex:entity-HE">
+        <ex:title1 xml:lang="he" xsi:type="prov:InternationalizedString">דג סקרן שט בים מאוכזב ולפתע מצא חברה</ex:title1>
+        <ex:title1 xml:lang="en" xsi:type="prov:InternationalizedString">A curious fish sailed the sea disappointedly, and suddenly found company</ex:title1>
+        <ex:title3 xsi:type="xsd:QName">ex:_חברה</ex:title3>
+        <ex:_חברה xsi:type="xsd:QName">ex:test</ex:_חברה>
+    </prov:entity>
+</prov:document>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:wasEndedBy prov:id="ex:end1">
+        <prov:activity prov:ref="ex:a1"/>
+        <prov:trigger prov:ref="ex:e1"/>
+        <prov:time>2015-09-09T21:42:16.599+01:00</prov:time>
+    </prov:wasEndedBy>
+    <prov:wasEndedBy prov:id="ex:end1">
+        <prov:activity prov:ref="ex:a1"/>
+        <prov:trigger prov:ref="ex:e1"/>
+        <prov:time>2012-12-03T21:08:16.686Z</prov:time>
+    </prov:wasEndedBy>
+</prov:document>

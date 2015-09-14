@@ -1,0 +1,378 @@
+{
+  "prefix": {
+    "uuid": "urn:uuid:",
+    "pic": "http://www.ipaw.info/ns/picaso#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "eprint": "http://eprints.soton.ac.uk/id/eprint/",
+    "tmpl": "http://openprovenance.org/tmpl#",
+    "ui": "http://openprovenance.org/ui#",
+    "personid": "http://eprints.soton.ac.uk/id/person/"
+  },
+  "bundle": {
+    "uuid:55348dff-4fcc-4ac2-ab56-641798c64400": {
+      "agent": {
+        "personid:ext-45004": {
+          "tmpl:order": {
+            "$": "[4]",
+            "type": "xsd:string"
+          },
+          "ui:minimum": {
+            "$": "1",
+            "type": "xsd:int"
+          },
+          "prov:type": {
+            "$": "prov:Person",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:label": "Nigel Shadbolt",
+          "ui:type": [
+            {
+              "$": "prov:Person",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "prov:Organization",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        },
+        "personid:ext-67702": {
+          "tmpl:order": {
+            "$": "[0]",
+            "type": "xsd:string"
+          },
+          "ui:minimum": {
+            "$": "1",
+            "type": "xsd:int"
+          },
+          "prov:type": {
+            "$": "prov:Person",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:label": "Ramine Tinati",
+          "ui:type": [
+            {
+              "$": "prov:Person",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "prov:Organization",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        },
+        "personid:ext-82600": {
+          "tmpl:order": {
+            "$": "[1]",
+            "type": "xsd:string"
+          },
+          "ui:minimum": {
+            "$": "1",
+            "type": "xsd:int"
+          },
+          "prov:type": {
+            "$": "prov:Person",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:label": "Elena Simperl",
+          "ui:type": [
+            {
+              "$": "prov:Person",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "prov:Organization",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        },
+        "personid:ext-63776": {
+          "tmpl:order": {
+            "$": "[3]",
+            "type": "xsd:string"
+          },
+          "ui:minimum": {
+            "$": "1",
+            "type": "xsd:int"
+          },
+          "prov:type": {
+            "$": "prov:Person",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:label": "Max Van Kleek",
+          "ui:type": [
+            {
+              "$": "prov:Person",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "prov:Organization",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        },
+        "personid:ext-82858": {
+          "tmpl:order": {
+            "$": "[2]",
+            "type": "xsd:string"
+          },
+          "ui:minimum": {
+            "$": "1",
+            "type": "xsd:int"
+          },
+          "prov:type": {
+            "$": "prov:Person",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:label": "Markus Luczak-Rösch",
+          "ui:type": [
+            {
+              "$": "prov:Person",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "prov:Organization",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        }
+      },
+      "prefix": {
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "prov": "http://www.w3.org/ns/prov#"
+      },
+      "wasAttributedTo": {
+        "_:wAT3": {
+          "tmpl:order": {
+            "$": "[2, 0]",
+            "type": "xsd:string"
+          },
+          "prov:entity": "eprint:363608",
+          "prov:type": {
+            "$": "pic:Author",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:agent": "personid:ext-82858",
+          "ui:type": [
+            {
+              "$": "pic:Author",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Contributor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Editor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Reviewer",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Funder",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        },
+        "_:wAT4": {
+          "tmpl:order": {
+            "$": "[3, 0]",
+            "type": "xsd:string"
+          },
+          "prov:entity": "eprint:363608",
+          "prov:type": {
+            "$": "pic:Author",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:agent": "personid:ext-63776",
+          "ui:type": [
+            {
+              "$": "pic:Author",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Contributor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Editor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Reviewer",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Funder",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        },
+        "_:wAT5": {
+          "tmpl:order": {
+            "$": "[4, 0]",
+            "type": "xsd:string"
+          },
+          "prov:entity": "eprint:363608",
+          "prov:type": {
+            "$": "pic:Author",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:agent": "personid:ext-45004",
+          "ui:type": [
+            {
+              "$": "pic:Author",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Contributor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Editor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Reviewer",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Funder",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        },
+        "_:wAT1": {
+          "tmpl:order": {
+            "$": "[0, 0]",
+            "type": "xsd:string"
+          },
+          "prov:entity": "eprint:363608",
+          "prov:type": {
+            "$": "pic:Author",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:agent": "personid:ext-67702",
+          "ui:type": [
+            {
+              "$": "pic:Author",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Contributor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Editor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Reviewer",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Funder",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        },
+        "_:wAT2": {
+          "tmpl:order": {
+            "$": "[1, 0]",
+            "type": "xsd:string"
+          },
+          "prov:entity": "eprint:363608",
+          "prov:type": {
+            "$": "pic:Author",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:agent": "personid:ext-82600",
+          "ui:type": [
+            {
+              "$": "pic:Author",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Contributor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Editor",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Reviewer",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Funder",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        }
+      },
+      "entity": {
+        "eprint:363608": {
+          "tmpl:order": {
+            "$": "[0]",
+            "type": "xsd:string"
+          },
+          "ui:minimum": {
+            "$": "1",
+            "type": "xsd:int"
+          },
+          "prov:type": {
+            "$": "pic:Article",
+            "type": "prov:QUALIFIED_NAME"
+          },
+          "prov:label": "Collective intelligence in citizen science  a study of performers and talkers",
+          "ui:maximum": {
+            "$": "1",
+            "type": "xsd:int"
+          },
+          "ui:type": [
+            {
+              "$": "pic:Article",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Book",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Code",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Dataset",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Figure",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Poster",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Slides",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Table",
+              "type": "prov:QUALIFIED_NAME"
+            },
+            {
+              "$": "pic:Tweet",
+              "type": "prov:QUALIFIED_NAME"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

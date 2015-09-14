@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:entity prov:id="ex:entity-HE">
+        <ex:title1 xml:lang="ru" xsi:type="prov:InternationalizedString">Любя, съешь щипцы, — вздохнёт мэр, — Кайф жгуч!</ex:title1>
+        <ex:title1 xml:lang="en" xsi:type="prov:InternationalizedString">The mayor will sigh, “Eat the pliers with love; pleasure burns!</ex:title1>
+        <ex:title3 xsi:type="xsd:QName">ex:Любя</ex:title3>
+        <ex:Любя xsi:type="xsd:QName">ex:test</ex:Любя>
+    </prov:entity>
+</prov:document>

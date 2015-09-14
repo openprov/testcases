@@ -1,0 +1,5 @@
+document
+prefix other <http://example4.org/>
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:dins_25;ex:d2,ex:d1,{('other:zabcd', ex:e0)})
+endDocument

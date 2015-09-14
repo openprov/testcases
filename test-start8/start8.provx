@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/" xmlns:ex2="http://example2.org/">
+    <prov:wasStartedBy prov:id="ex:start8">
+        <prov:activity prov:ref="ex:a1"/>
+        <prov:starter prov:ref="ex:a2"/>
+        <prov:time>2015-09-09T21:42:16.572+01:00</prov:time>
+        <prov:label>hello</prov:label>
+        <prov:label xml:lang="en">bye</prov:label>
+        <prov:label xml:lang="fr">bonjour</prov:label>
+        <prov:location xsi:type="xsd:string">London</prov:location>
+        <prov:location xsi:type="xsd:int">1</prov:location>
+        <prov:location xsi:type="xsd:float">1.0</prov:location>
+        <prov:location xsi:type="xsd:boolean">true</prov:location>
+        <prov:location xsi:type="xsd:QName">ex:london</prov:location>
+        <prov:location xsi:type="xsd:dateTime">2015-09-09T21:42:16.572+01:00</prov:location>
+        <prov:location xsi:type="xsd:anyURI">http://example.org/london</prov:location>
+        <prov:location xsi:type="xsd:gYear">2002</prov:location>
+        <prov:role xsi:type="xsd:string">someRole</prov:role>
+        <prov:role xsi:type="xsd:string">otherRole</prov:role>
+        <prov:type xsi:type="xsd:string">a</prov:type>
+        <prov:type xsi:type="xsd:int">1</prov:type>
+        <prov:type xsi:type="xsd:float">1.0</prov:type>
+        <prov:type xsi:type="xsd:string">true</prov:type>
+        <prov:type xsi:type="xsd:QName">ex:abc</prov:type>
+        <prov:type xsi:type="xsd:dateTime">2015-09-09T21:42:16.572+01:00</prov:type>
+        <prov:type xsi:type="xsd:anyURI">http://example.org/hello</prov:type>
+        <ex:tag1 xsi:type="xsd:string">hello</ex:tag1>
+        <ex:tag2 xsi:type="xsd:string">bye</ex:tag2>
+        <ex2:tag3 xsi:type="xsd:string">hi</ex2:tag3>
+        <ex:tag1 xsi:type="xsd:string">hello
+over
+more
+lines</ex:tag1>
+        <ex:_0tagWithDigit xsi:type="xsd:string">hello</ex:_0tagWithDigit>
+    </prov:wasStartedBy>
+</prov:document>

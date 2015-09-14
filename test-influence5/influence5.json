@@ -1,0 +1,24 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "wasInfluencedBy": {
+    "ex:inf5": {
+      "prov:influencer": "ex:a1",
+      "prov:label": [
+        "hello",
+        {
+          "$": "bye",
+          "lang": "en"
+        },
+        {
+          "$": "bonjour",
+          "lang": "fr"
+        }
+      ],
+      "prov:influencee": "ex:a2"
+    }
+  }
+}

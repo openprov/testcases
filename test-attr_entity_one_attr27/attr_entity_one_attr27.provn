@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+entity(ex:et27,[prov:type = "2015-09-09T21:42:14.887+01:00" %% xsd:dateTime])
+endDocument

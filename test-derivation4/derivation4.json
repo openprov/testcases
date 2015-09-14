@@ -1,0 +1,14 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "wasDerivedFrom": {
+    "ex:der4": {
+      "prov:label": "hello",
+      "prov:generatedEntity": "ex:e2",
+      "prov:usedEntity": "ex:e1"
+    }
+  }
+}

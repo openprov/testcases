@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:dins_38;ex:d2,ex:d1,{("TOK" %% xsd:token, ex:e0)})
+endDocument

@@ -1,0 +1,17 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "derivedByInsertionFrom": {
+    "ex:dins_27": {
+      "prov:key-entity-set": {
+        "$key-datatype": "xsd:dateTime",
+        "2015-09-09T21:42:14.871+01:00": "ex:e0"
+      },
+      "prov:after": "ex:d2",
+      "prov:before": "ex:d1"
+    }
+  }
+}

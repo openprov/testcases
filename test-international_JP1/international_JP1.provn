@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+entity(ex:entity-HE,[ex:title1 = "いろはにほへと ちりぬるを わかよたれそ つねならむ うゐのおくやま けふこえて あさきゆめみし ゑひもせす（ん）"@jp, ex:title3 = 'ex:わかよたれそ', ex:わかよたれそ = 'ex:test'])
+endDocument

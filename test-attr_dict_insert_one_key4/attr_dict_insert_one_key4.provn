@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+prov:derivedByInsertionFrom(ex:dins_4;ex:d2,ex:d1,{("1" %% xsd:long, ex:e0)})
+endDocument

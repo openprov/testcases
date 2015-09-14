@@ -1,0 +1,23 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex: <http://example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+{
+	ex:deriv4 a prov:Insertion ;
+		prov:dictionary ex:d1 .
+	
+	ex:d2 prov:qualifiedInsertion ex:deriv4 .
+	
+	ex:deriv4 prov:insertedKeyEntityPair _:blank1 .
+	
+	_:blank1 prov:pairKey "a"^^xsd:string ;
+		prov:pairEntity ex:e0 .
+	
+	ex:deriv4 prov:insertedKeyEntityPair _:blank2 .
+	
+	_:blank2 prov:pairKey "1"^^xsd:int ;
+		prov:pairEntity ex:e1 .
+}

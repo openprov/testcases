@@ -1,0 +1,17 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/"
+  },
+  "wasAssociatedWith": {
+    "ex:ass_r27": {
+      "prov:agent": "ex:ag1",
+      "prov:role": {
+        "$": "2015-09-09T21:42:14.862+01:00",
+        "type": "xsd:dateTime"
+      },
+      "prov:activity": "ex:a1"
+    }
+  }
+}

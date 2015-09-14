@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:agent prov:id="ex:ag6">
+        <prov:label>agent6</prov:label>
+        <prov:type xsi:type="xsd:string">a</prov:type>
+        <prov:type xsi:type="xsd:int">1</prov:type>
+        <prov:type xsi:type="xsd:float">1.0</prov:type>
+        <prov:type xsi:type="xsd:string">true</prov:type>
+        <prov:type xsi:type="xsd:QName">ex:abc</prov:type>
+        <prov:type xsi:type="xsd:dateTime">2015-09-09T21:42:16.556+01:00</prov:type>
+        <prov:type xsi:type="xsd:anyURI">http://example.org/hello</prov:type>
+    </prov:agent>
+</prov:document>

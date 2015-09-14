@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+entity(ex:entity-HE,[ex:title1 = "Любя, съешь щипцы, — вздохнёт мэр, — Кайф жгуч!"@ru, ex:title1 = "The mayor will sigh, “Eat the pliers with love; pleasure burns!"@en, ex:title3 = 'ex:Любя', ex:Любя = 'ex:test'])
+endDocument

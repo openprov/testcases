@@ -1,0 +1,43 @@
+{
+  "prefix": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "ex": "http://example.org/",
+    "ex2": "http://example2.org/"
+  },
+  "entity": {
+    "ex:101-entity": {
+      "ex:unicode": {
+        "$": "ex2:À-ÖØ-öø-Ͱͽ",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "ex:123": [
+        {
+          "$": "mystring",
+          "type": "xsd:string"
+        },
+        {
+          "$": "ma chaine",
+          "lang": "fr"
+        }
+      ],
+      "ex:a01bc": {
+        "$": "ex2:\\\u003d\\\u0027\\(\\)\\,-\\:\\;\\[\\]\\.",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "prov:label": "entity101",
+      "ex:À-ÖØ-öø-Ͱͽ": {
+        "$": "ex2:unicode",
+        "type": "prov:QUALIFIED_NAME"
+      },
+      "ex:?a\\\u003db": {
+        "$": "1",
+        "type": "xsd:int"
+      },
+      "ex:a01b\\[c": {
+        "$": "ex2:\\\u003d\\\u0027\\(\\)\\,-\\:\\;\\[\\]\\.",
+        "type": "prov:QUALIFIED_NAME"
+      }
+    }
+  }
+}

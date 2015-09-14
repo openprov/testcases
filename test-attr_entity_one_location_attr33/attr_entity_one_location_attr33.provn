@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+entity(ex:en_l33,[prov:location = "000102220506" %% xsd:hexBinary])
+endDocument

@@ -1,0 +1,4 @@
+document
+prefix ex <http://example.org/>
+wasStartedBy(ex:start7;ex:a1,-,ex:a2,2015-09-09T21:42:16.571+01:00)
+endDocument

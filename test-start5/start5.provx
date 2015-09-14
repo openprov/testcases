@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prov:document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ex="http://example.org/">
+    <prov:wasStartedBy prov:id="ex:start5">
+        <prov:activity prov:ref="ex:a1"/>
+        <prov:trigger prov:ref="ex:e1"/>
+        <prov:starter prov:ref="ex:a2"/>
+    </prov:wasStartedBy>
+</prov:document>
